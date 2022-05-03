@@ -1,6 +1,6 @@
 
 ![Mappls APIs](https://about.mappls.com/images/mappls-b-logo.svg)
-# MapmyIndia Interactive Vector Maps JS SDK for Web !
+# Mappls Web Maps JS
 
 Explore the largest directory of APIs & SDKs for maps, routes and search.
 
@@ -18,12 +18,12 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 | 3.0 | Initial Commit  |Mappls API Team ([MS](https://github.com/mamtasharma117))|
 
 ## Introduction
-The Interactive Maps JavaScript SDK for Web helps render and display map tiles while customizing the map's look and feel on mobile or web browser. Mappls (MapmyIndia) is India's leading Map provider, and produces various SDKs, including Web SDKs (JavaScript libraries) for mobile-friendly interactive maps which are easy to use & high on performance. 
-This SDK is a collection of classes and functions that can be used to implement a host of map features.
+The Mappls web Maps JS helps render and display map tiles while customizing the map's look and feel on mobile or web browser. Mappls (MapmyIndia) is India's leading Map provider, and produces various JS for mobile-friendly interactive maps which are easy to use & high on performance. 
+This JS is a collection of classes and functions that can be used to implement a host of map features.
 
 **Features:**
 
--   **Zoom**: Pan-able map of India with 19 zoom levels, 22 being the highest (most detailed) and 4 being the lowest (country level) map display.
+-   **Zoom**: Pan-able map of India 22 zoom level being the highest (most detailed) and 1 being the lowest (world level) map display.
 -   **Overlays**: The map is the key for any sort of business and understanding this, we at Mappls provide quick default overlays to reduce the boiler plate code for your code base.
     -   **Map Markers (Pushpins)**: Point to any location using default pushpin behaviors and provide it your own style to make it look more tailored for your application. Note: Have a look at the Plug-ins section to find out what makes it cooler.
     -   **Info Windows (Pop-ups)**: On a Map Clicking is a native behavior understanding this, we provide out of the box info windows such that if a pushpin is clicked an info window pops up open and you can show your content related to that location there. You can style it to make it behave as required for your UI to be magnificent.
@@ -45,15 +45,15 @@ This SDK is a collection of classes and functions that can be used to implement 
 Now that you’re all caught up with the features let’s get down right to them and look at how can you integrate our Interactive Map to your Website from scratch.
 
 
-### Initializing The Map
+## Add Map
 
-[Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/mapInitialization) 
+[Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/Maps/mappls-default-map) 
 
 The easiest way to start loading maps in a web page is with a “Hello World” sample code, you can download or view a working “Hello World” sample from the links for adding your first marker below.
 
 #### Adding the Map Script to your web page
 
-Follow the below steps to integrate MapmyIndia interactive Maps into your existing code base or even a File -> New Project.
+Follow the below steps to integrate Mappls interactive Maps into your existing code base or even a File -> New Project.
 - Declare application as HTML5:
 Define `<!DOCTYPE html>` on top of your HTML.
 - Integrate Interactive maps from Mappls into your browser application by simply including Mappls's interactive map API in your script source in the head section.
@@ -82,316 +82,130 @@ Define `<!DOCTYPE html>` on top of your HTML.
 - Initialize a Mappls Map by simply calling new Mappls.Map() in the JavaScript and passing it at the minimum, the div object in which you want the map populated. (All other parameters are optional.)
 
 ```js
-    map = new Mappls.Map('map', {center:{lat:28.612964,lng:77.229463} });
+    map = new mappls.Map('map', {center:{lat:28.612964,lng:77.229463} });
 ```	
 
-- **Hello World** 
+### Learn about Map Methods & Events
 
-```html    
-  <html>
-      <head>
-      <title>Hello, World</title>
-      <meta name="viewport" content="initial-scale=1.0">
-      <meta charset="utf-8">
-      <style>
-          html,
-          body,
-          #map {
-              margin: 0;
-              padding: 0;
-              width: 100%;
-              height: 100vh;
-              }
-      </style>
-      <script src="https://apis.mappls.com/advancedmaps/api/<key>/map_sdk?layer=vector&v=3.0&callback=loadMap" defer async></script>
-      </head>
-      <body>
-          <div id="map"></div>
-          <script>
-              var map;
-              function loadMap()
-              { 
-                  map = new Mappls.Map('map', {center: [28.544,77.5454]});
-              } 
-          </script>
-      </body>
-  </html>   
-```
-	
-## Map Quick Reference:
 
-   - Map Methods & Events
-        - [Map Properties](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/mapProperties.md)
-        - [Map Methods](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/mapMethods.md)
-        - [Map Events](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/mapEvents.md) 
+- [Map Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/mapProperties.md)
+- [Map Methods](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/mapMethods.md)
+- [Map Events](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/mapEvents.md) 
 
-### Markers
 
+## Markers
 
 Markers are effortless way of pointing to a location, so getting right to it, you can go ahead and add markers that we provide out of the box but just in case you want to add your own, we’ve got that covered for you as well. There are 3 main categories of markers that you can add namely,  
 -  **Stock Markers**: The one you get out of the box using our Interactive Vector Maps SDK and you can select from a lot of choices.  
 -  **Custom Marker**: Just in case you want to provide your own markers, we’ve handled that for you as well.  
 -  **HTML Marker**: In case you don’t want to add in an image you can use HTML to create a marker and then plot it on the map as well.
 
-For more details, please read article in [Markers](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/markers.md)
+For more details, please read article in [Markers](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/markers.md)
 
 Now, that you have a basic understanding of Markers, Functions and Events let’s talk about Info Windows or Pop-Ups.
 
-### Adding Your First Marker
+## Add Markers
 
-[LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/single-marker)
+[LIVE DEMO](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-singlemarker)
 
-The easiest way to start loading maps with simple markers in a web page is with a “Hello World” sample code, you can download or view a working “Hello World” sample from the links above. 
+The easiest way to start loading maps with simple markers in a web page is with sample code given on the link above, you can download or view a working sample with your keys. 
   
-In the sample, we have a case of a map scenario where objective is plotting a pushpin that says hello world on click. 
 
-#### Method to add marker on map
+### Method to add marker on map
 
-**`new Mappls.Marker`**
-
-##### Code to add marker on Map
+**`mappls.Marker`**
 
 ```js
-var marker = new Mappls.Marker({
+var marker = new mappls.Marker({
     map: map,
     position: {"lat": 28.519467,"lng":77.223150}
 	});
 ```
 
-## Example
-
-```html    
-<html>
-    <head>
-    <title>First Marker</title>
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="utf-8">
-    <style>
-        html,
-        body,
-        #map {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100vh;
-            }
-    </style>
-    <script src="https://apis.mappls.com/advancedmaps/api/<key or token>/map_sdk?layer=vector&v=3.0&callback=loadMap" defer async></script>
-    </head>
-    <body>
-        <div id="map"></div>
-        <script>
-            var map;
-            function loadMap()
-            { 
-                map = new Mappls.Map('map', {center: [28.544,77.5454]});
-                map.addListener('load', function () {
-                    var marker= new Mappls.Marker({
-                    map: map,
-                    position: {"lat": 28.544,"lng":77.5454}
-                    });
-                }); 
-            }
-            </script>
-        </body>
-    </html>
-```
-
-### Knowing Properties And Methods
+### **Knowing Marker Properties And Methods**
 
 You can interact with properties of the Map we provide to suite your use case and add additional customizability to your Map layer using the features it has to offer. These functions are a quick go to in case of an event. 
 
-For details, please read article in [Marker Methods](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/markerMethods.md)
+### Markers Quick Reference:
 
-## Marker Quick Reference:
+- [Marker Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/markerProperties.md)
+- [Marker Methods](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/markerMethods.md)
+- [Marker Events](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/markerEvents.md)
 
-   - [**Marker Properties**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/markerProperties.md)
-   - [**Marker Methods**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/markerMethods.md)
-   - [**Marker Events**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/markerEvents.md)
+- [Multiple Marker with cluster](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/markers.md#Multiple-Marker-With-cluster)
 
-- [**Multiple Marker with cluster**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/markers.md#Multiple-Marker-With-cluster)
+- [GeoJSON Bulk Marker](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/markers.md#geojson-bulk-markers)
 
-- [**GeoJSON Bulk Marker**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/markers.md#geojson-bulk-markers)
+### View Sample Codes for Quick Reference
 
-```js
-    var geoData={
-                "type": "FeatureCollection",
-                "features": [{
-                "type": "Feature",
-                "properties": {"htmlPopup":"noida"},
-                "geometry": {"type": "Point",
-                "coordinates": [28.544,77.5454]}
-                },{
-                "type": "Feature",
-                "properties": {"htmlPopup":"faridabad"},
-                "geometry": {"type": "Point",
-                "coordinates": [28.27189158,77.2158203125]}
-                },{
-                "type": "Feature",
-                "properties": {"htmlPopup":"delhi"},
-                "geometry": {"type": "Point",
-                "coordinates": [28.549511,77.2678250]}
-                }]
-            };
-    var marker=Mappls.Marker({map:map,position:geoData,icon_url:'https://apis.mappls.com/map_v3/1.png',clusters:true,fitbounds:true,fitboundOptions:{padding: 120,duration:1000},popupOptions:{offset: {'bottom': [0, -20]}}});
-```
+- [Single Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-singlemarker)
+- [Multiple Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-multiplemarker)
+- [Advance Cluster Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-advancecluster)
+- [Bouncing Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-bouncing-marker)
+- [Cluster Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-cluster)
+- [Dragable Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-draggablemarker)
+- [Marker Dropdown](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-dropdown-marker)
+- [Marker Dropup](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-dropup-marker)
+- [Marker using HTML](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-htmlmarker)
+- [Linked Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-linked-marker)
+- [Marker with Custom Popup](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-marker-custompopup)
+- [Marker with Popup](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-markerpopup)
+- [Multiple Marker using GeoJSON](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-multiplemarker-geojson)
 
 
-### Info Windows
 
-[LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/infowindow) 
+## Info Windows
+
+[LIVE DEMO](https://about.mappls.com/api/web-sdk/vector-map-example/InfoWindow/mappls-infowindow) 
 
 Info Windows are a convenient way of showing data about a marker or in simple words: what that marker stands for. The Native behaviour of a user to know about any marker is to try and click on it to know what it’s all about and showing an info window would be the way to go about it:
 
-**Please Note**: MapmyIndia interactive map SDK supports a default info window that you can leverage but we want you to have an option to customize your info window to fit in with your UI and you can do so in the CSS.
+**Please Note**: Our JS supports a default info window that you can leverage but we want you to have an option to customize your info window to fit in with your UI and you can do so in the CSS.
 
-For a quick sample or a demo you can follow up with the links on top. 
+For a quick sample or a demo you can follow up with the links on live Demo
 
-You can declare an info window in your CSS and write up a quick function to generate data in that info window and on marker click event simple open that info window.
+For details , please read article in [Info Windows](https://github.com/mappls-api/mappls-web-maps-js/blob/main/docs/V3.0/infoWindows.md)
 
-For details , please read article in [Info Windows](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/infoWindows.md)
+### Info Window Quick Reference
 
-## Example
+- [InfoWindow Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/infoWindows.md#InfoWindow-Properties)
 
-```html    
-    <html>
-        <head>
-        <title>Infowindow</title>
-        <meta name="viewport" content="initial-scale=1.0">
-        <meta charset="utf-8">
-        <style>
-            html,
-            body,
-            #map {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                height: 100vh;
-                }
-        </style>
-        <script src="https://apis.mappls.com/advancedmaps/api/<key or token>/map_sdk?layer=vector&v=3.0&callback=loadMap" defer async></script>
-        </head>
-        <body>
-            <div id="map"></div>
-            <script>
-                var map;
-                function loadMap()
-                { 
-                    map = new Mappls.Map('map', {center: [28.544,77.5454]});
-                    map.addListener('load', function () {
-                        var window=new Mappls.InfoWindow({map:map,content:"MyMapContent",position:{lat: 28.529467 ,lng: 77.223150}});
-                    }); 
-                }
-            </script>
-        </body>
-    </html>
-```
+- [Remove InfoWindow](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/infoWindows.md#Remove-InfoWindow)
 
-## Info Window Quick Reference
+### Using Info Window Sample Codes for Quick Reference
 
-- [**InfoWindow Properties**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/infoWindows.md#InfoWindow-Properties)
-
-- [**Remove InfoWindow**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/infoWindows.md#Remove-InfoWindow)
+- [Simple InfoWindow](https://about.mappls.com/api/web-sdk/vector-map-example/InfoWindow/mappls-infowindow)
+- [Custom InfoWindow](https://about.mappls.com/api/web-sdk/vector-map-example/InfoWindow/mappls-custom-infowindow)
+- [InfoWindow with Header](https://about.mappls.com/api/web-sdk/vector-map-example/InfoWindow/mappls-infowindow-with-header)
 
 
-### Polylines
+## Polylines
 
-[LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/polyline) 
+[LIVE DEMO](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-polyline) 
 
 Polylines are a way of showing movement or transit on a map. We at Mappls understand the ways you can leverage the features offered by a map and one among them is a Polyline.
 
 Polylines are continuous lines consisting of one or more line segments (preferably a geopath). To add a polyline, initialize map as shown in the previous sections and then create a data set. What is a data set? The Data set is the collection of points (latitude and longitude) over which you want the polyline to be drawn.
 
-For details , please read article in [Polylines](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polylines.md)
+For details , please read article in [Polylines](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/polylines.md)
 
-### Polyline Quick Reference
+### Polyline Quick Reference - Check out our vast list of sample codes for polylines.
 
-- [**Polyline Properties**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polyline.md#Polyline-Properties)
+- [Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-polyline)
+- [Animated Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-animated-polyline)
+- [Animated Marker with Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-animatedmarker-Polyline)
+- [Bezier Curve Dashed Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-curve-dashed-polyline)
+- [Bezier Curve Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-curve-polyline)
+- [Dashed Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-dashed-polyline)
+- [Editable Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-editable-polyline)
+- [Gradient Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-gradient-polyline)
+- [Multi Colored Dashed Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-multicolored-dashed-polyline)
+- [Multi Colored Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-multicolored-polyline)
 
-## Example:
-
- ```html    
-	<html>
-    <head>
-    <title>Polyline</title>
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="utf-8">
-    <style>
-        html,
-        body,
-        #map {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100vh;
-            }
-    </style>
-    <script src="https://apis.mappls.com/advancedmaps/api/<key or token>/map_sdk?layer=vector&v=3.0&callback=loadMap" defer async></script>
-    </head>
-    <body>
-        <div id="map"></div>
-        <script>
-            var map;
-            function loadMap()
-            { 
-                map = new Mappls.Map('map', {center: [28.544,77.5454]});
-                map.addListener('load', function () {
-                    
-                    var pts=[{lat:28.55108, lng:77.26913},{lat:28.55106,lng: 77.26906},{lat:28.55105,lng: 77.26897},{lat:28.55101,lng:77.26872},{lat:28.55099, lng:77.26849},{lat:28.55097, lng:77.26831},{lat:28.55093, lng:77.26794},{lat:28.55089, lng:77.2676},{lat:28.55123, lng:77.26756},{lat:28.55145, lng:77.26758},{lat:28.55168, lng:77.26758},{lat:28.55175, lng:77.26759},{lat:28.55177, lng:77.26755},{lat:28.55179, lng:77.26753}];
-                    var polyline = new Mappls.Polyline({
-                        map:map,
-                        paths: pts,
-                        strokeColor: '#333',
-                        strokeOpacity: 1.0,
-                        strokeWeight: 5,
-                        fitbounds:true
-			        });
-                }); 
-            }
-        </script>
-    </body>
-</html>
-```
-
-- [**Draw Editable Polyline**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polyline.md#Editable-Polyline)
-
-*Drag polyline from anywhere & get callback polyline data. By default the value is false.*
-
-```js
-    editable: true 
-```
-
-- [**Draw Gradient In Polyline**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polyline.md#Gradient-Polyline)
-
-- [**Draw Animated Polyline**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polyline.md#Animated-Polyline)
-
-*Polyline draw point by point with speed*
-
-```js
-    animate: {path:true/false,speed:5}
-```
-
-- [**Animated Marker Along With Polyline**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polyline.md#Animated-Marker-Along-With-Polyline)
-
-```js
-    animate: { 
-        speed:5 
-        icon_width: 35 / “35”,
-        icon_height: 15 / “15”,,
-        icon_url: (icon_url),
-        repeat: true/false,
-    },
-```
-
-- [**Multi Colored Polyline**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polyline.md#Multi-Colored-Polyline)
-
-- [**Polyline Marker Animation Methods**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polyline.md#polyline-marker-animation-methods)
-
-- [**Polyline Events**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polyline.md#polyline-events)
 
 **Remove Polyline**
 ```js
-    Mappls.remove({map: map, layer: polyline);
+    mappls.remove({map: map, layer: polyline);
 ```
 
 
@@ -399,86 +213,32 @@ In real case scenarios, you’ll need to get the data set on the fly or from a s
 
 The polyline is just the beginning, but sometimes you’ll need to mark a territory to properly showcase your information. In such cases a polyline might not be the perfect fit but Polygons and Circles may be the apt choice.
 
-### Polygons
+## Polygons
 
 Polygons are a way of showing a territory. In cases where you want to showcase data over an area, polygons are your best pick. You can use them to show Geozones as well.
 
 It’s very like generating a polyline, the basic steps remain the same, create a Data set, generate a polygon and add it to the map.
 
-For details , please read article in [Polygon](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polygon.md)
+For details , please read article in [Polygon](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/polygon.md)
 
+### Polygon Quick Reference - Check out our vast list of sample codes for polygons.
 
-**Simple Polygon**
+- [Simple Polygon](https://about.mappls.com/api/web-sdk/vector-map-example/Polygon/mappls-polygon)
 
-[LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/polygon) 
+- [Polygon Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/polygon.md#polygon-properties)
 
-## Example
+- [Polygon Events](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/polygon.md#polygon-events)
 
-```html    
-    <html>
-        <head>
-        <title>Polygon</title>
-        <meta name="viewport" content="initial-scale=1.0">
-        <meta charset="utf-8">
-        <style>
-            html,
-            body,
-            #map {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                height: 100vh;
-                }
-        </style>
-        <script src="https://apis.mappls.com/advancedmaps/api/<key or token>/map_sdk?layer=vector&v=3.0&callback=loadMap" defer async></script>
-        </head>
-        <body>
-            <div id="map"></div>
-            <script>
-                var map;
-                function loadMap()
-                { 
-                    map = new Mappls.Map('map', {center: [28.544,77.5454]});
-                    map.addListener('load', function () {
-                        var pts=[{lat: 28.774, lng: 80.190},{lat: 28.466, lng: 76.118},{lat: 27.321, lng: 77.757},{lat: 27.771, lng: 80.757}];
-                        new Mappls.Polygon({map:map,paths: pts,fillColor:"blue"});
-                    }); 
-                }
-            </script>
-        </body>
-    </html>
-```
+- [Editable Polygon](https://about.mappls.com/api/web-sdk/vector-map-example/Polygon/mappls-editable-polygon)
 
-- [**Polygon Properties**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polygon.md#polygon-properties)
+- [Polygon with Popup](https://about.mappls.com/api/web-sdk/vector-map-example/Polygon/mappls-polygon-withpopup)
 
-- [**Polygon Events**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/polygon.md#polygon-events)
-
-### Draw Polyline/Polygons 
-
-This method can draw polyline or polygon directly from map with click event with callback methods.
-
-Double Click to finish draw event.
-
-```js
-//Polyline
-
-    var polylineoptions={strokeColor: "blue",strokeOpacity:1.0,strokeWeight: 9,lineGap:0,popupHtml:'Route 1',popupOptions:{offset: {'bottom': [0, -20]}}} 
-
-    Mappls.draw({map:map,type:'polyline',callback:draw_callback,options:polylineoptions});
-
-//Polygon
-var polygonoptions={fillColor:'#333'}
-Mappls.draw({map:map,type:'polygon',callback:draw_callback,options:polygonoptions});
-
-function draw_callback(data)
-{
- console.log(data);
-}
-```
+- [Transparent Polygon](https://about.mappls.com/api/web-sdk/vector-map-example/Polygon/mappls-transparent-polygon)
+- [Check Position In Polygon](https://about.mappls.com/api/web-sdk/vector-map-example/Polygon/mappls-check-position-polygon)
 
 *Now that we’ve covered polygons let’s have a look at **Circles** which provide another way of showcasing territory.*
 
-### Circles
+## Circles
 
 Circles are way of marking a territory without too much interaction by the user. A circle only has two important values:
 
@@ -487,118 +247,48 @@ Circles are way of marking a territory without too much interaction by the user.
 
 With the two values, you can easily define a quick area of interest on a map.
 
-For details , please read article in [Circle](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/circle.md)
+For details , please read article in [Circle](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/circle.md)
 
 ```js
-    Mappls.Circle()
+    mappls.Circle()
 ```
 
-[LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/circle) 
+[LIVE DEMO](https://about.mappls.com/api/web-sdk/vector-map-example/Circle/mappls-circle) 
 
-## Example
+### Circle Quick Reference 
 
-```html    
-	<html>
-    <head>
-    <title>Circle</title>
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="utf-8">
-    <style>
-        html,
-        body,
-        #map {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100vh;
-            }
-    </style>
-    <script src="https://apis.mappls.com/advancedmaps/api/<key or token>/map_sdk?layer=vector&v=3.0&callback=loadMap" defer async></script>
-    </head>
-    <body>
-        <div id="map"></div>
-        <script>
-            var map;
-            function loadMap()
-            { 
-                map = new Mappls.Map('map', {center: [28.544,77.5454]});
-                map.addListener('load', function () {
-                    var mappls_circle = new Mappls.Circle({
-                    map: map,
-                    center: {"lat": 28.544 ,"lng": 77.5454},
-                    radius: 1000});
-                }); 
-            }
-        </script>
-    </body>
-</html>
-```
-- [**Circle Properties**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/circle.md#circle-properties)
 
-- [**Circle Events**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/circle.md#circle-events)
+- [Simple Circle](https://about.mappls.com/api/web-sdk/vector-map-example/Circle/mappls-transparent-circle)
+
+- [Transparent Circle](https://about.mappls.com/api/web-sdk/vector-map-example/Circle/mappls-transparent-circle)
+
+- [Circle Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/circle.md#circle-properties)
+
+- [Circle Events](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/circle.md#circle-events)
 
 
 
-## Heatmap Overlays
+## Heat Map Overlays
 
-For details , please read article in [Heatmap Overlays](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/heatMap.md)
+For details , please read article in [Heatmap Overlays](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/heatMap.md)
 
-```js
-    var pts=[ {lat: 28.774, lng: 80.190}, {lat: 28.466, lng: 76.118}, {lat: 27.321, lng: 77.757}, {lat: 27.774, lng: 80.190} ];
+[LIVE DEMO](https://about.mappls.com/api/web-sdk/vector-map-example/HeatmapOverlays/mappls-heatmap) 
 
-    var heat_map=new Mappls.HeatmapLayer({map:map,data:pts,fitbounds:true});
-```
+### HeatMap Quick Reference 
 
-- [**Heatmap Properties**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/heatMap.md#heatmap-properties)
+- [Heatmap on Click](https://about.mappls.com/api/web-sdk/vector-map-example/HeatmapOverlays/mappls-heatmap-onclick)
+- [Heatmap on Overmouse](https://about.mappls.com/api/web-sdk/vector-map-example/HeatmapOverlays/mappls-heatmap-overmouse)
+- [HeatMap](https://about.mappls.com/api/web-sdk/vector-map-example/HeatmapOverlays/mappls-heatmap)
 
-[LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/heatmaplayer) 
-
-## Example
-
-```html    
-    <html>
-        <head>
-        <title>Heatmap</title>
-        <meta name="viewport" content="initial-scale=1.0">
-        <meta charset="utf-8">
-        <style>
-            html,
-            body,
-            #map {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                height: 100vh;
-                }
-        </style>
-        <script src="https://apis.mappls.com/advancedmaps/api/<key or token>/map_sdk?layer=vector&v=3.0&callback=loadMap" defer async></script>
-        </head>
-        <body>
-            <div id="map"></div>
-            <script>
-                var map;
-                function loadMap()
-                { 
-                    map = new Mappls.Map('map', {center: [28.544,77.5454]});
-                    map.addListener('load', function () {
-                        var pts=[{lat:28.55108, lng:77.26913},{lat:28.55106,lng: 77.26906},{lat:28.55105,lng: 77.26897},{lat:28.55101,lng:77.26872},{lat:28.55099, lng:77.26849},{lat:28.55097, lng:77.26831},{lat:28.55093, lng:77.26794},{lat:28.55089, lng:77.2676},{lat:28.55123, lng:77.26756},{lat:28.55145, lng:77.26758},{lat:28.55168, lng:77.26758},{lat:28.55175, lng:77.26759},{lat:28.55177, lng:77.26755},{lat:28.55179, lng:77.26753}];
-
-                        var gradient = [ 'rgba(0, 255, 255, 0)', 'rgba(0, 255, 255, 1)', 'rgba(0, 191, 255, 1)', 'rgba(0, 127, 255, 1)', 'rgba(0, 63, 255, 1)', 'rgba(0, 0, 255, 1)', 'rgba(0, 0, 223, 1)', 'rgba(0, 0, 191, 1)', 'rgba(0, 0, 159, 1)', 'rgba(0, 0, 127, 1)', 'rgba(63, 0, 91, 1)', 'rgba(127, 0, 63, 1)', 'rgba(191, 0, 31, 1)', 'brown' ]; 
-
-                        var heat_map=new Mappls.HeatmapLayer({map:map,data:pts,gradient:gradient,fitbounds:true});
-                    }); 
-                }
-            </script>
-        </body>
-    </html>
-```
+- [Heatmap Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/heatMap.md#heatmap-properties)
 
 
-### Add geojson layer
 
-For details, please read article in [GeoJSON ](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/geoJson.md)
+## Add Geojson layer
 
-[Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/addgeojson) 
+For details, please read article in [GeoJSON ](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/geoJson.md)
+
+[Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/GeoJSON/mappls-geojson) 
 
 *GeoJSON Supports marker, polyline and polygon*
 
@@ -612,155 +302,44 @@ For details, please read article in [GeoJSON ](https://github.com/mappls-api/map
 6. text-size
 7. text-offset
 
-***polyline Property support in geojson:***
+***Polyline Property support in geojson:***
 
 1. stroke
 2. stroke-opacity
 3. stroke-width
 
-***polygon Property support in geojson:***
+***Polygon Property support in geojson:***
 
 1. stroke
 2. fill color
 3. fill opacity
 
 ```js
-    new Mappls.addGeoJson({map:map,data:geoData,fitbounds:true,cType:0});
+    new mappls.addGeoJson({map:map,data:geoData,fitbounds:true,cType:0});
 ```
 
-- [**Add GeoJSON Properties**](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/geoJson.md#Add-GeoJSON-Properties)
+### Geojson Quick Reference 
 
-## Example
+- [Add GeoJSON](https://about.mappls.com/api/web-sdk/vector-map-example/GeoJSON/mappls-geojson)
+- [Dashed Polyline Using GeoJson](https://about.mappls.com/api/web-sdk/vector-map-example/GeoJSON/mappls-geojson-dashed-polyline)
+- [Multi Colored Dashed Polyline Using GeoJson](https://about.mappls.com/api/web-sdk/vector-map-example/GeoJSON/mappls-geojson-multicolored-dashed-polyline)
+- [Multiple Marker Using Geojson](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-multiplemarker-geojson)
 
-```html    
-    <html>
-        <head>
-        <title>Geojson Layer</title>
-        <meta name="viewport" content="initial-scale=1.0">
-        <meta charset="utf-8">
-        <style>
-            html,
-            body,
-            #map {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                height: 100vh;
-                }
-        </style>
-        <script src="https://apis.mappls.com/advancedmaps/api/<key or token>/map_sdk?layer=vector&v=3.0&callback=loadMap" defer async></script>
-        </head>
-        <body>
-            <div id="map"></div>
-            <script>
-                var map;
-                function loadMap()
-                { 
-                    map = new Mappls.Map('map', {center: [28.544,77.5454]});
-                    map.addListener('load', function () {
-                        var mixjson={
-                            "type": "FeatureCollection",
-                            "features": [
-                                {
-                                    "type": "Feature",
-                                    "geometry": {"type": "Point","coordinates": [28.54950,77.2678540]
-                                    },
-                                    "properties": {
-                                        "name": "MapmyIndia old Office",
-                                        "description": "Okhla delhi",
-                                        "icon": "https://apis.mappls.com/map_v3/1.png",
-                                        "icon-size":1,
-                                        "text":"",
-                                        "text-size":20,
-                                        "text-offset":[0,0],
-                                        "text-color":"red",
-                                    }
-                                },
-                                {
-                                    "type": "Feature",
-                                    "geometry": {
-                                        "type": "Point",
-                                        "coordinates": [28.5510446,77.268952]
-                                    },
-                                    "properties": {
-                                        "name": "<div onclick=\"function1()\">MapmyIndia New Office</div>",
-                                        "description": "68,Okhla delhi",
-                                        "icon": "https://apis.mappls.com/map_v3/1.png",
-                                        "icon-size":0.55,
-                                        "text":"1",
-                                        "icon-offset":[0,-20],
-                                    }
-                                },
-                                {
-                                    "type": "Feature",
-                                    "geometry": {
-                                        "type": "LineString",
-                                        "coordinates": [
-                                            [28.551042,77.268953],
-                                            [28.551005,77.268649],
-                                            [28.550986,77.268392],
-                                            [28.550967,77.268231],
-                                            [28.550967,77.268177],
-                                            [28.550958,77.268016],
-                                            [28.55092,77.267587],
-                                            [28.550722,77.267651],
-                                            [28.55042,77.267823],
-                                            [28.550128,77.267802],
-                                            [28.549751,77.267995],
-                                            [28.549652,77.268039]
-                                        ]
-                                    },
-                                    "properties": {
-                                        "name": "Direction1",
-                                        "description": "Direction2",
-                                        "stroke": "#33CC00",
-                                        "stroke-opacity": 0.6509803921568628,
-                                        "stroke-width": 10,
-                                    }
-                                },
-                                {
-                                    "type": "Feature",
-                                    "geometry": {
-                                        "type": "Polygon",
-                                        "coordinates": [[
-                                                [28.550868798522835,77.26878225803375],
-                                                [28.550868798522835,77.26899683475493],
-                                                [28.550383454405356,77.26903975009918],
-                                                [28.550388166494926,77.26883590221404]
-                                        ]]
-                                    
-                                    },
-                                    "properties": {
-                                        "name": "MapmyIndia Head Office",
-                                        "stroke": "#33CC00",
-                                        "stroke-opacity": 0.6509803921568628,
-                                        "stroke-width": 3,
-                                        "fill": "#33CC00",
-                                        "fill-opacity": 0.6509803921568628
-                                    }
-                                }
-                            ]
-                        };
-                    var jsonData=Mappls.addGeoJson({map:map,data:mixjson,fitbounds:true});
-                    }); 
-                }
-            </script>
-        </body>
-    </html>
-```
+- [Add GeoJSON Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/geoJson.md#Add-GeoJSON-Properties)
+
 
 **Remove Layer**
 ```js
-    new Mappls.remove({map:map,layer:jsonData});
+    new mappls.remove({map:map,layer:jsonData});
 ```
 
 
-### KML Overlay
+## KML Overlay
 
 **KML**: [Keyhole Markup Language](https://www.opengeospatial.org/standards/kml) is a file format used to display geographic data on maps.
 Using this plugin, you can overlay KML data over Mappls Maps for web.
 
-[LIVE DEMO](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/kml) 
+[LIVE DEMO](https://about.mappls.com/api/web-sdk/vector-map-example/KML/mappls-kml) 
 
 #### Important Notes to remember
 1. Only KML data supported.
@@ -772,13 +351,6 @@ Using this plugin, you can overlay KML data over Mappls Maps for web.
 5. File must be CORS enabled from the server where they are hosted.
 6. File must follow KML standard strictly.
 
-**How to allow**
-add libraries=kml in initial load
-ie.
-
-```js
-    <script src="https://apis.mappls.com/advancedmaps/api/<key or token>/map_sdk?v=3.0&layer=vector&libraries=kml"></script>
-```
 
 - **KML Method**
 
@@ -787,44 +359,16 @@ ie.
     Mappls.KmlLayer({map:map,url:url,cType:1,fitbounds:true,fitboundOptions:{padding:200}});
 ```
 
-- [**KML Properties**:](https://github.com/mappls-api/mapmyindia-vector-maps-js-web-SDK/blob/master/docs/V3.0/kml.md#KML-Properties)
+- [**KML Properties**:](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/kml.md#KML-Properties)
+
+For details, please read article in [KML Overlay](https://github.com/mappls-api/mappls-web-maps-js/blob/main/docs/V3.0/kml.md)
 
 
-```html    
-    <html>
-        <head>
-        <title>Geojson Layer</title>
-        <meta name="viewport" content="initial-scale=1.0">
-        <meta charset="utf-8">
-        <style>
-            html,
-            body,
-            #map {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                height: 100vh;
-                }
-        </style>
-        <script src="https://apis.mappls.com/advancedmaps/api/<key or token>/map_sdk?layer=vector&v=3.0&libraries=kml&callback=loadMap" defer async></script>
-        </head>
-        <body>
-            <div id="map"></div>
-            <script>
-                var map;
-                function loadMap()
-                { 
-                    map = new Mappls.Map('map', {center: [28.544,77.5454]});
-                    map.addListener('load', function () {
-                        var url="https://www.mappls.com/api/advanced-maps/doc/sample/mmi.kml";
-                        Mappls.KmlLayer({map:map,url:url,fitbounds:true,fitboundOptions:{padding:200}});
-                    }); 
-                }
-            </script>
-        </body>
-    </html>
-```
+## Set mappls style
 
+Mappls offers a range of preset styles to rendering the map. The user has to retrieve a list of styles for a specific account. 
+The listing api would help in rendering specific style as well as facilitate the switching of style themes. 
+For details, please read article in [MapStyles ](https://raw.githubusercontent.com/mappls-api/mappls-web-maps-js/main/docs/V3.0/Set-mappls-Style.md)
 
 **Please Note**: For a more detailed code snippet follow the links provided above to see the sample code or see a live demo.
 
