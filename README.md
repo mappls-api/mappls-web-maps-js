@@ -1,10 +1,10 @@
+[<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
 
-![Mappls APIs](https://about.mappls.com/images/mappls-b-logo.svg)
 # Mappls Web Maps JS
 
 Explore the largest directory of APIs & SDKs for maps, routes and search.
 
-Our APIs, SDKs, and live updating map data available for [238 nations](https://github.com/MapmyIndia/mapmyindia-rest-api/blob/master/docs/countryISO.md) give developers tools to build better mapping, navigation, and search experiences across platforms.
+Our APIs, SDKs, and live updating map data available for [200+ countries & territories](https://github.com/MapmyIndia/mapmyindia-rest-api/blob/master/docs/countryISO.md)<sup>2</sup> give developers tools to build better mapping, navigation, and search experiences across platforms.
 
 This page will be continually enhanced to offer more insights and reference material on how to best utilize our Vector Maps JS SDK for Web.
 
@@ -18,23 +18,23 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 | 3.0 | Initial Commit  |Mappls API Team ([MS](https://github.com/mamtasharma117))|
 
 ## Introduction
-The Mappls web Maps JS helps render and display map tiles while customizing the map's look and feel on mobile or web browser. Mappls (MapmyIndia) is India's leading Map provider, and produces various JS for mobile-friendly interactive maps which are easy to use & high on performance. 
+The Mappls Web Maps JS SDK helps render and display map for India & the world<sup>2</sup> while customizing the map's look and feel on mobile or web browser. Mappls (MapmyIndia) is India's leading Map provider, and produces various JS for mobile-friendly interactive maps which are easy to use & high on performance. 
 This JS is a collection of classes and functions that can be used to implement a host of map features.
 
 **Features:**
 
--   **Zoom**: Pan-able map of India 22 zoom level being the highest (most detailed) and 1 being the lowest (world level) map display.
--   **Overlays**: The map is the key for any sort of business and understanding this, we at Mappls provide quick default overlays to reduce the boiler plate code for your code base.
-    -   **Map Markers (Pushpins)**: Point to any location using default pushpin behaviors and provide it your own style to make it look more tailored for your application. Note: Have a look at the Plug-ins section to find out what makes it cooler.
-    -   **Info Windows (Pop-ups)**: On a Map Clicking is a native behavior understanding this, we provide out of the box info windows such that if a pushpin is clicked an info window pops up open and you can show your content related to that location there. You can style it to make it behave as required for your UI to be magnificent.
-    -   **Polylines**: Connect any two points or even more with out of the box Mappls polylines dedicated to high customizability and performance to suit your use cases. Note: Have a look at the plug-ins we provide to make your polylines have an edge up and suit your use cases in a more integrated manner.
-    -   **Polygons**: Show a region in a spotlight with a polygon and show various localized data based on it.
-    -   **Circles:** Circles are way of marking a territory without too much interaction by the user.You can draw a circle around a given location.
--   **Controls**: because we understand the use cases with a map we provide the below out of the box controls that can be turned off or on based on your requirement and because we care, we provide you to override our controls outlook by providing your own styles or CSS so that you can move them or customize them completely. Controls include:
-    -   **Zoom Bar**: (appears by default at the centre on the right side). Helps to provide zoom in and zoom out functionality to the map by default.
-    -   **Map Layer Control**: Allows to change the map view from basic to hybrid and regional. Also allows to show traffic layer on map.
-  -   **Fullscreen Control**: Allows to view a full screen map.
-  -   **Current Location Control**: Scopes the Map to the viewer’s current location.**  
+-   **`Zoom`**: Pan-able map of India 22 zoom level being the highest (most detailed) and 1 being the lowest (world level) map display.
+-   **`Overlays`**: The map is the key for any sort of business and understanding this, we at Mappls provide quick default overlays to reduce the boiler plate code for your code base.
+    -   **`Map Markers (Pushpins)`**: Point to any location using default pushpin behaviors and provide it your own style to make it look more tailored for your application. Note: Have a look at the Plug-ins section to find out what makes it cooler.
+    -   **`Info Windows (Pop-ups)`**: On a Map Clicking is a native behavior understanding this, we provide out of the box info windows such that if a pushpin is clicked an info window pops up open and you can show your content related to that location there. You can style it to make it behave as required for your UI to be magnificent.
+    -   **`Polylines`**: Connect any two points or even more with out of the box Mappls polylines dedicated to high customizability and performance to suit your use cases. Note: Have a look at the plug-ins we provide to make your polylines have an edge up and suit your use cases in a more integrated manner.
+    -   **`Polygons`**: Show a region in a spotlight with a polygon and show various localized data based on it.
+    -   **`Circles`:** Circles are way of marking a territory without too much interaction by the user.You can draw a circle around a given location.
+-   **`Controls`**: because we understand the use cases with a map we provide the below out of the box controls that can be turned off or on based on your requirement and because we care, we provide you to override our controls outlook by providing your own styles or CSS so that you can move them or customize them completely. Controls include:
+    -   **`Zoom Bar`**: (appears by default at the centre on the right side). Helps to provide zoom in and zoom out functionality to the map by default.
+    -   **`Map Layer Control`**: Allows to change the map view from basic to hybrid and regional. Also allows to show traffic layer on map.
+  -   **`Fullscreen Control`**: Allows to view a full screen map.
+  -   **`Current Location Control`**: Scopes the Map to the viewer’s current location.**  
 	
         Note:**  The location settings must be turned on and must allow the site to fetch the location for this control to work.
 
@@ -43,7 +43,6 @@ This JS is a collection of classes and functions that can be used to implement a
 ## Getting Started
 
 Now that you’re all caught up with the features let’s get down right to them and look at how can you integrate our Interactive Map to your Website from scratch.
-
 
 ## Add Map
 
@@ -58,32 +57,33 @@ Follow the below steps to integrate Mappls interactive Maps into your existing c
 Define `<!DOCTYPE html>` on top of your HTML.
 - Integrate Interactive maps from Mappls into your browser application by simply including Mappls's interactive map API in your script source in the head section.
 
-```html
-    <script src="https://apis.mappls.com/advancedmaps/api/<key or token>/map_sdk?v=3.0&layer=vector"></script>
-```
-
-   **Important**: 
-
-   - *bearer token* in place of `<key>`
-   - *layer*: Vector/raster default vector
+    ```html
+        <script src="https://apis.mappls.com/advancedmaps/api/<token>/map_sdk?v=3.0&layer=vector"></script>
+    ```    
+    **Important:**
+    - Please ensure that you insert your *bearer token* in place of `<token>`
+    - *`v`*: This is the version. Please keep as the latest version: `3.0`.
+    - *`layer`*: The type of map applicable for the project. The default is `vector`. Alternate value is `raster`. 
+    
+    Please discuss with [apisupport@mappls.com](mailto:apisupport@mappls.com) before changing values for either variables.
 
 - Define a style in the head section to load in your CSS.
    
-```html
-    <style> html, body, #map1 {margin: 0;padding: 0;width: 100%;height: 100%;} </style>
-```
+    ```html
+        <style> html, body, #map1 {margin: 0;padding: 0;width: 100%;height: 100%;} </style>
+    ```
 
 - Define a div object in the body tag of the HTML where you want the Mappls Map to show up.
 
-```html
-    <div id="map"></div>;
-```
+    ```html
+        <div id="map"></div>;
+    ```
 
 - Initialize a Mappls Map by simply calling new Mappls.Map() in the JavaScript and passing it at the minimum, the div object in which you want the map populated. (All other parameters are optional.)
 
-```js
-    map = new mappls.Map('map', {center:{lat:28.612964,lng:77.229463} });
-```	
+    ```js
+        map = new mappls.Map('map', {center:{lat:28.612964,lng:77.229463} });
+    ```	
 
 ### Learn about Map Methods & Events
 
@@ -96,9 +96,9 @@ Define `<!DOCTYPE html>` on top of your HTML.
 ## Markers
 
 Markers are effortless way of pointing to a location, so getting right to it, you can go ahead and add markers that we provide out of the box but just in case you want to add your own, we’ve got that covered for you as well. There are 3 main categories of markers that you can add namely,  
--  **Stock Markers**: The one you get out of the box using our Interactive Vector Maps SDK and you can select from a lot of choices.  
--  **Custom Marker**: Just in case you want to provide your own markers, we’ve handled that for you as well.  
--  **HTML Marker**: In case you don’t want to add in an image you can use HTML to create a marker and then plot it on the map as well.
+-  **`Stock Markers`**: The one you get out of the box using our Interactive Vector Maps SDK and you can select from a lot of choices.  
+-  **`Custom Marker`**: Just in case you want to provide your own markers, we’ve handled that for you as well.  
+-  **`HTML Marker`**: In case you don’t want to add in an image you can use HTML to create a marker and then plot it on the map as well.
 
 For more details, please read article in [Markers](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/markers.md)
 
@@ -109,7 +109,8 @@ Now, that you have a basic understanding of Markers, Functions and Events let’
 [LIVE DEMO](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-singlemarker)
 
 The easiest way to start loading maps with simple markers in a web page is with sample code given on the link above, you can download or view a working sample with your keys. 
-  
+
+
 
 ### Method to add marker on map
 
@@ -372,40 +373,38 @@ For details, please read article in [MapStyles ](https://raw.githubusercontent.c
 
 **Please Note**: For a more detailed code snippet follow the links provided above to see the sample code or see a live demo.
 
-For any queries and support, please contact:
+<br>
 
-  
+**Footnotes**: 
+- <sup>2: Country/territory list provided above.</sup>
+- 
 
-![](https://cdn.mapmyindia.com/mappls_web/maps_widget_v2/images/mappls.svg?service=google_gsuite)
+<br>
 
-Email us at [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com)
+For any queries and support, please contact: 
 
-  
-  
+[<img src="https://about.mappls.com/images/mappls-logo.svg" height="40"/> </p>](https://about.mappls.com/api/)
+Email us at [apisupport@mappls.com](mailto:apisupport@mappls.com)
 
-![](https://www.mapmyindia.com/api/img/icons/stack-overflow.png)
-
-[Stack Overflow](https://stackoverflow.com/questions/tagged/mapmyindia-api)
-
-Ask a question under the mapmyindia-api
-
-  
 
 ![](https://www.mapmyindia.com/api/img/icons/support.png)
-
-[Support](https://www.mapmyindia.com/api/index.php#f_cont)
-
+[Support](https://about.mappls.com/contact/)
 Need support? contact us!
 
-  
+<br></br>
+<br></br>
 
-![](https://www.mapmyindia.com/api/img/icons/blog.png)
+[<p align="center"> <img src="https://www.mapmyindia.com/api/img/icons/stack-overflow.png"/> ](https://stackoverflow.com/questions/tagged/mappls-api)[![](https://www.mapmyindia.com/api/img/icons/blog.png)](https://about.mappls.com/blog/)[![](https://www.mapmyindia.com/api/img/icons/gethub.png)](https://github.com/Mappls-api)[<img src="https://mmi-api-team.s3.ap-south-1.amazonaws.com/API-Team/npm-logo.one-third%5B1%5D.png" height="40"/> </p>](https://www.npmjs.com/org/mapmyindia) 
 
-[Blog](http://www.mapmyindia.com/blog/)
 
-Read about the latest updates & customer stories
 
-  
-  
+[<p align="center"> <img src="https://www.mapmyindia.com/june-newsletter/icon4.png"/> ](https://www.facebook.com/Mapplsofficial)[![](https://www.mapmyindia.com/june-newsletter/icon2.png)](https://twitter.com/mappls)[![](https://www.mapmyindia.com/newsletter/2017/aug/llinkedin.png)](https://www.linkedin.com/company/mappls/)[![](https://www.mapmyindia.com/june-newsletter/icon3.png)](https://www.youtube.com/channel/UCAWvWsh-dZLLeUU7_J9HiOA)
 
-© Copyright 2022 CE Info Systems Ltd. All Rights Reserved.
+
+
+
+<div align="center">@ Copyright 2022 CE Info Systems Ltd. All Rights Reserved.</div>
+
+<div align="center"> <a href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
+
+<div align="center">Customer Care: +91-9999333223</div>
