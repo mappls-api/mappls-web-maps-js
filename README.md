@@ -369,7 +369,7 @@ For details, please read article in [KML Overlay](https://github.com/mappls-api/
 
 Mappls offers a range of preset styles to rendering the map. The user has to retrieve a list of styles for a specific account. 
 The listing api would help in rendering specific style as well as facilitate the switching of style themes. 
-For details, please read article in [MapStyles ](https://raw.githubusercontent.com/mappls-api/mappls-web-maps-js/main/docs/V3.0/Set-mappls-Style.md)
+For details, please read article in [MapStyles ](https://github.com/mappls-api/mappls-web-maps-js/blob/main/docs/V3.0/Set-mappls-style.md)
 
 **Please Note**: For a more detailed code snippet follow the links provided above to see the sample code or see a live demo.
 
