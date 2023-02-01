@@ -13,7 +13,9 @@ To know more about available styles, kindly contact apisupport@mapmyindia.com
 **This feature is available from version v3.0**
 
 
-**Preview:**
+## **Preview:**
+
+[<img src="https://about.mappls.com/api/api_doc_assets/3dModels-min.PNG" height="450"/> </p>](https://about.mappls.com/api/)
 
 
 ## Method
