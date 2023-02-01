@@ -12,13 +12,19 @@ To know more about available styles, kindly contact apisupport@mapmyindia.com
 
 **This feature is available from version v3.0**
 
-## [Method](#Method)
+## To enable RealView
+
 ```js
-map.realview(true/false)
-map.realviewClick=function(d){console.log(d);}
+mapObj.realview(true)
 ```
 
-Click for Live Demo: https://www.mappls.com
+## To disable RealView
+
+```js
+mapObj.realview(false)
+```
+
+Click for Live Demo: https://www.mappls.com/realview
 
 
 That's all!
