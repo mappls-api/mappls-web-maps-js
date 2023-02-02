@@ -12,6 +12,8 @@ To know more about available styles, kindly contact apisupport@mapmyindia.com
 
 **This feature is available from version v3.0**
 
+[<img src="https://about.mappls.com/api/api_doc_assets/darcha-min.gif" height="450"/> </p>](https://about.mappls.com/api/)
+
 ## To enable RealView
 
 ```js
