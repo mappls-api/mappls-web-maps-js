@@ -19,16 +19,21 @@ To know more about available styles, kindly contact apisupport@mapmyindia.com
 
 
 ## Method
+To add 3d Landmarks on the map
 
 ```js
 mappls.add3DModel({map:map});
 ```
-_For any specific mappls pin_
+To add any specific mappls pin
 
 ```js
 mappls.add3DModel({map:map,pin:”mmi000”});
 ```
+To remove Model from the map
 
+```js
+model.remove();
+```
 
 Click for Live Demo: https://www.mappls.com/realview
 
