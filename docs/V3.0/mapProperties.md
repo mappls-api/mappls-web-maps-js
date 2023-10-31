@@ -1,13 +1,13 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+[< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
+## Map Properties
 
-Map Properties
+[Mappls Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/map-properties) 
 
-[Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/map-properties) | [JS Fiddle](https://jsfiddle.net/mapmyindia_map/0pru8dxo/)
-
-## Map Properties Quick Reference: 
+#### Map Properties Quick Reference: 
 
 - **Background Color:** `backgroundColor` used for the background of the Map div. This color will be visible when tiles have not yet loaded as the user pans. This option can only be set when the map is initialized.
 
