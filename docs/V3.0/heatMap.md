@@ -1,7 +1,8 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+[< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
 
 ## Heat Map Overlay
@@ -15,7 +16,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 - **Map**
 - **data** This could be be the array of lat lng.
 
-### *Optional*
+### *Optional Properties*
 
 - **opacity:** Set the opacity of the heatmap overlays.
 
@@ -41,7 +42,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-- **fitbounds:** Fit map to layer. By default the value is false
+- **fitbounds:** Fit map to layer bounds. By default the value is false
 
 ```js
 	{
@@ -49,7 +50,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-- **fitboundOptions:** This shows the options aailable on the fitBound property.
+- **fitboundOptions:** This shows the options available on the fitBound property.
 
 ```js
 	{
@@ -84,7 +85,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	});
 ```
 
-### Remove HeatMap
+#### Remove HeatMap
 
 ```js
 	Mappls.remove({map:map,layer:HeatmapLayer});
