@@ -1,19 +1,21 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+[< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
+## KML Overlays
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/KML/mappls-kml) | [Code Pen Implementation](https://codepen.io/mappls/pen/VwyQGZy)
 
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
-## KML Overlay
 
 ### Supported Object Types
 
-#### 1. Markers
-#### 2. Polylines
-#### 3. Polygons
+- #### Markers
+- #### Polylines
+- #### Polygons
 
 
-### Overlaying KML on map
+### Adding a KML layer  on map
 
 #### [KML Properties](#KML-Properties)
 
@@ -24,7 +26,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 
 ### *Optional*
 
-- **fitbounds:** Fits in the map layer automatically to a bound on which geoJson has made. By default it is false.
+- **fitbounds:** Automatically adjusts the map layer to fit within the boundaries defined by the GeoJSON data. By default it is set to false.
 
 ```js
 	{
@@ -32,7 +34,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-- **fitboundOptions:** This shows the options aailable on the fitBound property.
+- **fitboundOptions:** This shows the options available on the fitBound property.
 
 ```js
 	{
