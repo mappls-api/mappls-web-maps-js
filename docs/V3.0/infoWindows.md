@@ -1,12 +1,13 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+[< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
 
 ## Info Windows Quick Reference
 
-### Drawing Info Windows
+### Implementing  Info Windows
 
 ### [InfoWindow Properties](#InfoWindow-Properties)
 
@@ -24,9 +25,9 @@ You can get your api key to be used in this document here: [https://apis.mappls.
         });
 ```
 
-### *Optional*
+### *Optional Properties*
 
-- **Content:** It shows the popup content on the Info Window.
+- **Content:** It shows the marker information on the Info Window by creating a pop up.
 
 ```js
     {
@@ -34,7 +35,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-- **Class:** It shows the custom class name on the Info Window.
+- **Class:** It shows the pre-defined custom class name on the Info Window.
 
 ```js
     {
@@ -42,7 +43,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-- **Offset:** It sets the exact location of the Info Window.
+- **Offset:** It sets the user defined location of the Info Window pop up modal.
 
 ```js
     {
@@ -58,7 +59,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-- **closeButton:** It shows the Close button on the Info Window. By default it is `true`
+- **closeButton:** It shows the Close button on the Info Window. By default it is set to `true`
 
 ```js
     {
@@ -66,7 +67,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-**Example**
+**Example of Info Window**
 
 ```js
 	infoWindow_object =new Mappls.InfoWindow({
@@ -79,7 +80,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	});
 ```
 
-### [Remove InfoWindow](#Remove-InfoWindow)
+### Remove InfoWindow
 
 ```js
 	Mappls.remove({map: map_object, layer: infoWindow_object);
