@@ -1,11 +1,14 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
 
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+
+[< Back to Table of Contents](../../README.md)
 
 ## Circle
-
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/RwxQBzy)
 
 
 #### [Circle Properties](#circle-properties)
@@ -64,6 +67,8 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 ```
 
 #### Circle Method
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/RwxQBzy)
+
 
 **`Mappls.Circle()`**
 
