@@ -1,21 +1,20 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+[< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
-
-
 ## Polyline Quick Reference
-
-### Drawing Polyline
 
 #### [Polyline Properties](#Polyline-Properties)
 
 ### *Required*
 
 - **Map Object**
-- **Path:** This could be be the array of lat lng.
+- **Path:** 
 
-**Example:**
+This could be be the array of lat lng.
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+
+**Example Code Snippets:**
 
 ```js
     Var polyline =new mappls.polyline({
@@ -24,7 +23,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
         });
 ```
 
-### *Optional*
+### *Optional Properties*
 
 - **strokeColor:** The polyline's stroke color. All CSS3 colors are supported except for extended named colors.
 
@@ -34,7 +33,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-- **strokeOpacity:** The stroke color. All CSS3 colors are supported except for extended named colors.
+- **strokeOpacity:** The stroke color opacity can be set using this property. All CSS3 colors are supported except for extended named colors.
 
 ```js
 	{
@@ -42,7 +41,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-- **strokeWeight:** The stroke color. All CSS3 colors are supported except for extended named colors.
+- **strokeWeight:** The stroke color density can be definded using this property. All CSS3 colors are supported except for extended named colors.
 
 ```js
 	{
@@ -50,7 +49,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-- **fitbounds:** Make map fit to polyline cordinates. By default the value is false.
+- **fitbounds:** Automatically adjusts the map layer to fit within the boundaries defined by the GeoJSON data/or other layer parameters. By default the value is false.
 
 ```js
 	{
@@ -106,7 +105,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-**Example:**
+**Example Code Snippet**
 
 ```js
 Polyline = new mappls.Polyline({
@@ -151,8 +150,7 @@ Polyline = new mappls.Polyline({
 
 #### [Gradient Polyline](#Gradient-Polyline)
 
-[Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/gradient-polyline) | [JS Fiddle](https://jsfiddle.net/mapmyindia_map/r3fbzje5/)
-
+[Mappls Gradient Polyline Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/gradient-polyline)
 ```js
     var pts=[{lat:28.55108, lng:77.26913},{lat:28.55106,lng: 77.26906},{lat:28.55105,lng: 77.26897},{lat:28.55101,lng:77.26872},{lat:28.55099, lng:77.26849},{lat:28.55097, lng:77.26831},{lat:28.55093, lng:77.26794},{lat:28.55089, lng:77.2676},{lat:28.55123, lng:77.26756},{lat:28.55145, lng:77.26758},{lat:28.55168, lng:77.26758},{lat:28.55175, lng:77.26759},{lat:28.55177, lng:77.26755},{lat:28.55179, lng:77.26753}];
     var polyline = new mappls.Polyline({
@@ -168,7 +166,7 @@ Polyline = new mappls.Polyline({
 
 #### [Animated Polyline](#Animated-Polyline)
 
-[Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/animated-polyline) | [JS Fiddle](https://jsfiddle.net/mapmyindia_map/z2phvs5b/)
+[Animated Polyline Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/animated-polyline) 
 
 *Polyline draw point by point with speed*
 
@@ -208,7 +206,7 @@ Polyline = new mappls.Polyline({
 
 #### [Multi Colored Polyline](#Multi-Colored-Polyline)
 
-[Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/decorated-polyline) | [JS Fiddle](https://jsfiddle.net/mapmyindia_map/r3fbzje5/)
+[Multi Colored Polyline Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/decorated-polyline) 
 
 ```js
 	Polyline = new mappls.Polyline({
