@@ -1,13 +1,13 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+[< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
 
+## Raster Source Overlay  
+To add 3rd Party Raster tile Sources on map.
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
-## Raster Source Overlay - To add 3rd Party Raster tile Sources
-
-### Overlaying a Raster Source on map
-
+## **Adding and removing a Raster Source overlay**
 
 Method Name :  **`addTile({tiles:tileUrl})`**
 
