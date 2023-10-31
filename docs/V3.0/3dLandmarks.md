@@ -1,24 +1,31 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
 
-# [Add 3d Landmarks on the map](#Add-3DLandmarks)
+[< Back to Table of Contents](../../README.md)
 
-This Mappls Map feature - 3D landmarks makes certain landmarks structures visible overlaid on the map. 
-These structures are presented with textures and more details in their 3D geometry, as seen in the screenshot below. 
+# 3d Landmarks on map
 
-To get the access, you can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
+The Mappls Map feature known as "3D landmarks" enhances the visibility of specific landmark structures by displaying them as overlays on the map. These structures are presented with textures and offer additional details in their three-dimensional (3D) geometry, as depicted in the provided screenshot. 
 
-The feature is compatible with all mapstyles availble with mappls.com.
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+
+The feature is compatible with all map styles available with mappls.com.
 To know more about available styles, kindly contact apisupport@mapmyindia.com
 
-**This feature is available from version v3.0**
+**This feature is available from version version 3.0**
 
 
 ## **Preview:**
 
-[<img src="https://about.mappls.com/api/api_doc_assets/3dModels-min.PNG" height="450"/> </p>](https://about.mappls.com/api/)
+[<img src="./../../assets/3DLandmark2.png" height="450"/> </p>](https://about.mappls.com/)
+
+<p align="center">3D Landmarks</p>
+
+[<img src="./../../assets/3DLandmark.png" height="450"/> </p>](https://about.mappls.com/)
+<p align="center">3D Landmarks</p>
 
 
-## Method
+
+### 3D Landmark Methods in JS
 To add 3d Landmarks on the map
 
 ```js
@@ -29,16 +36,14 @@ To add any specific mappls pin
 ```js
 mappls.add3DModel({map:map,pin:”mmi000”});
 ```
-To remove Model from the map
+To remove 3D Landmark Model from map
 
 ```js
 model.remove();
 ```
 
-Click for Live Demo: https://www.mappls.com/realview
+Click here for [3D Landmark Live Demo](https://www.mappls.com/3d@jpssflvf,onjevjlj,lmljvjlaovlsaeoo,l,f,f,f,f,l,f,zdata)
 
-
-That's all!
 
 <br>
 
