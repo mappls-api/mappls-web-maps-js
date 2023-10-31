@@ -1,18 +1,16 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
-
+[< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
-
-
 ## Polygon
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
+
+
+### Drawing Polygon
 ```js
 	new mappls.Polygon
 ```
-
-### Drawing Polygon
-
 #### [Polygon Properties](#polygon-properties)
 
 ### *Required*
@@ -20,7 +18,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 - **Map**
 - **Path:** This could be be the array of lat lng.
 
-### Example
+### Code Snippets
 
 ```js
 	mappls_polygon = new mappls.Polygon({
@@ -33,7 +31,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	});
 ```
 
-### *Optional*
+### *Optional Properties*
 
 - **fillcolor:** Fills the color of the polygon and All CSS3 colors are supported except for extended named colors.
 
@@ -100,7 +98,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 ```
 
 
-## Example
+## Example - Code Snippets
 
 ```js
 	mappls_polygon = new mappls.Polygon({
@@ -121,13 +119,13 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	});
 ```
 
-### Remove Polygon
+#### Remove Polygon
 
 ```js
 	mappls.remove({map: map_object, layer: Polygon_object);
 ```
 
-### Polygon Events
+## Polygon Events
 
 #### click
 
