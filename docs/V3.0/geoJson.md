@@ -1,20 +1,22 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+
+[< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
 
-## GeoJSON Overlay
+## GeoJSON Overlays
 
 ### Supported Object Types
 
-#### 1. Markers
-#### 2. Polylines
-#### 3. Polygons
+- #### Markers
+- #### Polylines
+- #### Polygons
 
 ### Overlaying Objects via GeoJSON on map
 
-#### [**Add GeoJSON Properties**](#Add-GeoJSON-Properties)
+### [**Add GeoJSON Properties**](#Add-GeoJSON-Properties)
 
 ### *Required*
 
@@ -106,7 +108,8 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 
 ### *Optional*
 
-- **fitbounds:** Fits in the map layer automatically to a bound on which geoJson has made.
+- **fitbounds:** 
+Automatically adjusts the map layer to fit within the boundaries defined by the GeoJSON data.
 
 ```js
 	{
@@ -114,7 +117,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	}
 ```
 
-- **fitboundOptions:** This shows the options aailable on the fitBound property.
+- **fitboundOptions:** This shows the options available on the fitBound property.
 
 ```js
 	{
@@ -241,7 +244,7 @@ You can get your api key to be used in this document here: [https://apis.mappls.
 	"text-color":"red" //color of text on marker
 ```
 
-### Remove GeoJSON Layer
+#### Remove GeoJSON Layer
 
 ```js
 	mappls.remove({map:map,layer:geoJSONLayer});
