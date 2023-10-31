@@ -1,18 +1,19 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
-
+[< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
-
-
 ## Markers
+
 
 Markers are effortless way of pointing to a location, so getting right to it, you can go ahead and add markers that we provide out of the box but just in case you want to add your own, we’ve got that covered for you as well. There are 3 main categories of markers that you can add namely,  
 -  **Stock Markers**: The one you get out of the box using our Interactive Vector Maps SDK and you can select from a lot of choices.  
 -  **Custom Marker**: Just in case you want to provide your own markers, we’ve handled that for you as well.  
 -  **HTML Marker**: In case you don’t want to add in an image you can use HTML to create a marker and then plot it on the map as well.
 
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+
 ### Add Markers
+Code snippet for adding markers
 
 ```js
 var marker = new mappls.Marker({
@@ -20,7 +21,7 @@ var marker = new mappls.Marker({
     position: {"lat": 28.519467,"lng":77.223150}
 	});
 ```
-#### Detailed Code:
+#### Code Snippets:
 
 ```js
 	marker = new mappls.Marker({
@@ -44,7 +45,9 @@ var marker = new mappls.Marker({
 
 [**Multiple Marker With cluster**](#Multiple-Marker-With-cluster)
 
-[Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/multiple-marker) | [JS Fiddle](https://jsfiddle.net/mapmyindia_map/efo0cn2r/)
+[Mappls Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/multiple-marker) 
+
+Code snippet for adding multiple marker with cluster
 
 ```js
     var geoData={
@@ -69,10 +72,11 @@ var marker = new mappls.Marker({
     var marker=Mappls.Marker({map:map,position:geoData,icon_url:'https://apis.mapmyindia.com/map_v3/1.png',clusters:true,fitbounds:true,fitboundOptions:{padding: 120,duration:1000},popupOptions:{offset: {'bottom': [0, -20]}}});
 ```
 
-#### GeoJSON bulk Markers
+### GeoJSON bulk Markers
 
-[Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/addgeojson)
+[Mappls Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/addgeojson)
 
+Code snippet for adding geojson bulk markers
 ```js
 	var geoData={
 				"type": "FeatureCollection",
