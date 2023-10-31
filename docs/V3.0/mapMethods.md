@@ -1,11 +1,11 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+[< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-You can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
-Map Methods 
-
-[Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/map-methods) | [JS Fiddle](https://jsfiddle.net/mapmyindia_map/9o8ezhys/)
+Map Methods - 
+[Mappls Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/map-methods) 
 
 ## Map Methods Quick Reference: 
 
@@ -85,13 +85,14 @@ Map Methods
     map_object.setZoom(12);
 ```
 
-- **setTilt:** Controls the automatic switching behavior for the angle of incidence of the map. The only allowed values are 0 to 60. setTilt(0) causes the map to always use a 0° overhead view regardless of the zoom level and viewport. setTilt(60) causes the tilt angle to automatically switch to 60 whenever 60° imagery is available for the current zoom level and viewport, and switch back to 0 whenever 60° imagery is not available (this is the default behavior).
+- **setTilt:** Controls the automatic switching behavior for the angle of incidence of the map. The allowed values are 0 to 60 degrees.<br>
+setTilt(0) causes the map to always use a 0° overhead view regardless of the zoom level and viewport. setTilt(60) causes the tilt angle to automatically switch to 60° whenever 60° imagery is available for the current zoom level and viewport, and switch back to 0 whenever 60° imagery is not available (this is the default behavior).
 
 ```js
     map_object.setTilt(45);
 ```
 
-- **getTilt:** Returns the current angle of incidence of the map, in degrees from the viewport plane to the map plane. The result will be 0 for imagery taken directly overhead or 60 for 60° imagery.
+- **getTilt:** Provides the current angle of inclination of the map, measured in degrees from the viewpoint plane to the map plane. This value will be 0 for imagery captured directly from above or 60 for imagery taken at a 60-degree angle.
 
 ```js
     map_object.getTilt();
