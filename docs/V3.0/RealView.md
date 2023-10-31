@@ -1,20 +1,26 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+[< Back to Table of Contents](../../README.md)
 
-# [Add RealView Layer on the map](#Add-RealView)
+# Add RealView Layer on the map
 
-Mappls  helps to visualize the panoramic 360 degree views of from designated roads with the help panoramas view on the spot. 
-Our Web Map js facilitate you to use the same on the your map.
 
-To get the access, you can get your api key to be used in this document here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
+Mappls enables the visualization of panoramic 360-degree views from specific road locations through the use of on-the-spot panorama views. Our Web Map JavaScript makes it easy for you to integrate these panoramic views into your own map.
+
+For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
 The feature is compatible with all mapstyles availble with mappls.com.
 To know more about available styles, kindly contact apisupport@mapmyindia.com
 
 **This feature is available from version v3.0**
 
-[<img src="https://about.mappls.com/api/api_doc_assets/darcha-min.gif" height="450"/> </p>](https://about.mappls.com/api/)
+[<img src="./../../assets/real_view1.png" height="450"/> </p>](https://about.mappls.com)
+<p align="center">RealView</p>
 
-## To enable RealView
+[<img src="./../../assets/real_view2.png" height="450"/> </p>](https://about.mappls.com)
+
+<p align="center">RealView</p>
+
+## [To enable RealView](#Add-RealView)
 
 ```js
 mapObj.realview(true)
