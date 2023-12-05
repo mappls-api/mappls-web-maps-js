@@ -119,6 +119,12 @@ Define `<!DOCTYPE html>` on top of your HTML.
         map = new mappls.Map('map', {center:{lat:28.612964,lng:77.229463} });
     ```	
 
+### Map Methods, Events & Properties
+
+- [Map Properties](./docs/V3.0/mapProperties.md)
+- [Map Methods](./docs/V3.0/mapMethods.md)
+- [Map Events](./docs/V3.0/mapEvents.md) 
+
 
 ## Markers
 
@@ -131,12 +137,6 @@ Utilizing markers to pinpoint locations is a hassle-free approach. You have the 
 -  **`HTML Marker`**: In case you don’t want to add in an image you can use HTML to create a marker and then plot it on the map as well.
 
 For more details, please read article in [Markers](./docs/V3.0/markers.md)
-
-### Map Methods, Events & Properties
-
-- [Map Properties](./docs/V3.0/mapProperties.md)
-- [Map Methods](./docs/V3.0/mapMethods.md)
-- [Map Events](./docs/V3.0/mapEvents.md) 
 
 
 ### Marker Implementation
