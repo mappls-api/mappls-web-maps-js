@@ -13,7 +13,7 @@ Markers are effortless way of pointing to a location, so getting right to it, yo
 For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
 [<img src="./../../assets/marker.png" height="450"/> </p>](https://about.mappls.com)
-<p align="center">Marker</p>
+<p >Marker</p>
 
 ### Add Markers
 Code snippet for adding markers
