@@ -11,8 +11,9 @@ A heat map is a graphical representation of data where values are depicted as co
 
 ### Overlaying Heat Maps on map
 
-[<img src="./../../assets/heatmap2.png" height="450"/> </p>](https://about.mappls.com)
-<br>
+[<img src="./../../assets/heatmap2.png" height="650" width="1200"/> </p>](https://about.mappls.com)
+<p align="center">Heat Map</p>
+
 #### [Heatmap Properties](#heatmap-properties)
 
 ### *Required*
