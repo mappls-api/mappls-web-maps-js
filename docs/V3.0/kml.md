@@ -11,8 +11,8 @@
 For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
 
-[<img src="./../../assets/kml.png" height="450"/> </p>](https://about.mappls.com)
-<br>
+[<img src="./../../assets/kml.png" height="650" width="1200"/> </p>](https://about.mappls.com)
+<p align="center">KML Representation</p>
 
 ### Supported Object Types
 
