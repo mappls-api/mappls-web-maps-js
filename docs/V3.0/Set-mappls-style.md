@@ -45,6 +45,8 @@ For eg:
 ```
 mappls.setStyle(‘grey-day’);
 ```
+[<img src="./../../assets/map_styles.png" height="450"/> </p>](https://about.mappls.com)
+<br>
 
 That's all!
 
