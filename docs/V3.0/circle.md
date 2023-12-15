@@ -10,8 +10,8 @@ For access, you can get your api key from [Mappls Console](https://apis.mappls.c
 ## Circle
 [Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/RwxQBzy)
 
-[<img src="./../../assets/circle.png" height="450"/> </p>](https://about.mappls.com)
-<br>
+[<img src="./../../assets/circle.png" height="650" width="1200"/> </p>](https://about.mappls.com)
+<p align="center">Circle</p>
 
 #### [Circle Properties](#circle-properties)
 
