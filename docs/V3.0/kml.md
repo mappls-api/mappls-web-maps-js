@@ -3,10 +3,16 @@
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
 ## KML Overlays
+
+**KML**: [Keyhole Markup Language](https://www.opengeospatial.org/standards/kml) is a file format employed to showcase geographical data on maps. With this plugin, you have the capability to superimpose KML data onto Mappls Maps for web applications.
+
 [Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/KML/mappls-kml) | [Code Pen Implementation](https://codepen.io/mappls/pen/VwyQGZy)
 
 For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
 
+
+[<img src="./../../assets/kml.png" height="450"/> </p>](https://about.mappls.com)
+<br>
 
 ### Supported Object Types
 
