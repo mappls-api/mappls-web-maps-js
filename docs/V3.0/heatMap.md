@@ -7,8 +7,12 @@ For access, you can get your api key from [Mappls Console](https://apis.mappls.c
 
 ## Heat Map Overlay
 
+A heat map is a graphical representation of data where values are depicted as colors. Heat maps are often used to visualize the intensity or density of point data across a map. The color gradient on the map helps users quickly identify areas with higher or lower concentrations of the data. For a heat map, you typically use a color gradient from cool to warm color tones (e.g., blue to red) to represent low to high values.
+
 ### Overlaying Heat Maps on map
 
+[<img src="./../../assets/heatmap2.png" height="450"/> </p>](https://about.mappls.com)
+<br>
 #### [Heatmap Properties](#heatmap-properties)
 
 ### *Required*
