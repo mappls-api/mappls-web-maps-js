@@ -11,6 +11,10 @@ For access, you can get your api key from [Mappls Console](https://apis.mappls.c
 ```js
 	new mappls.Polygon
 ```
+
+[<img src="./../../assets/polygon.png" height="650" width="1200"/> </p>](https://about.mappls.com)
+<p align="center">Polygon</p>
+
 #### [Polygon Properties](#polygon-properties)
 
 ### *Required*
