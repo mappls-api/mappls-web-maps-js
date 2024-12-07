@@ -43,7 +43,7 @@ function initMap1() {
 }
 
 //Capture the Snapshot: 
-//To capture the snapshot, call the mappls.mapSnapshot method. Pass the map instance and configuration options like imageWidth, imageHeight, etc. Additionally, you can set the downloadImage option to true if you want the snapshot to be automatically downloaded.
+//To capture the snapshot, call the mappls.mapSnapshot method. Pass the map instance and configuration options like imageWidth, imageHeight, etc. 
 
 
 function captureSnapshot(map) {
@@ -51,7 +51,6 @@ function captureSnapshot(map) {
         map: map,  // Required: Your map instance
         imageWidth: 150, // Optional: Width of the image (default 200)
         imageHeight: 150, // Optional: Height of the image (default 200)
-        downloadImage: true, // Optional: Whether to download the image automatically
         Optional: Specify a custom image type (e.g., 'jpeg', default is 'png')
         imageType: 'jpeg', 
         imagePlaceId: 'imagePlaceId' // Optional: ID of an element to show the image in
@@ -71,7 +70,6 @@ function captureSnapshot(map) {
 - **imageHeight**: Optional – The height of the generated image in pixels (default: 200).
 - **imageType**: Optional – The type of image to be generated. You can specify 'jpeg' or 'png'. If not provided, the default is 'png'.
 - **centerCoordinate**: Optional – The center coordinate of the map, used to specify a custom center point before capturing the snapshot.
-- **downloadImage**: Optional – Set this to true if you want the snapshot to be automatically downloaded. If set to false, the snapshot will not be downloaded automatically.
 - **imagePlaceId**: Optional – The ID of an HTML element where the generated snapshot image will be inserted. If this is provided, the image will be displayed in the element specified by this ID.
 
 ### Callback Function
