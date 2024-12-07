@@ -119,7 +119,6 @@ Example of Full Implementation:
                 imageWidth: 150,
                 imageHeight: 150,
 centerCoordinate: [27.634320502688186, 77.21964825705418], 
-downloadImage: true,
                 imagePlaceId: 'imagePlaceId'
             }, function(imageUrl) {
                 console.log('Snapshot created with watermark!', imageUrl.data);
