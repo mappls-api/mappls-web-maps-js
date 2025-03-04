@@ -44,7 +44,7 @@ Before using the methods in the your solution, please ensure that the related ac
 ### Step 3 : Initialize Map 
 
 ```js
-var trackingCallBackData;
+
 map = new mappls.Map('map', {
     center: [28.62988695137534, 77.4224575062193],
     zoom: 12
