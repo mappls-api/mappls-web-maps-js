@@ -43,6 +43,7 @@ You can get your api key to be used for access here: [https://apis.mappls.com/co
     - [Circle Quick Reference](#circle-quick-reference)
   - [Set mappls style](#set-mappls-style)
   - [Map Snapshot](https://github.com/mappls-api/mappls-web-maps-js/blob/main/docs/V3.0/mappls_map_snapshot.md)
+  - [mGIS_Methods](https://github.com/mappls-api/mappls-web-maps-js/blob/main/docs/V3.0/mGIS_Methods.md)
     
   ## Documentation History
 
