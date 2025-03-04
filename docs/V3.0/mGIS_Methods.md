@@ -32,7 +32,7 @@ Before using the methods in the your solution, please ensure that the related ac
 
 ### Step 1: Initialize mGIS SDK in the script tag
 ```js
- <script src="https://maps-preprod.mapmyindia.in/mgis_sdk/?v=1.0"></script>
+ <script src="https://embed.mappls.com/mgis_sdk/?v=1.0"></script>
 ```
 
 ### Step 2 : Add map under div container in your project
