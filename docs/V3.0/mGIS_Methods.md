@@ -13,7 +13,6 @@ mGIS offers a complete set of tools for mapping, data analysis, and visualizatio
 | 1.0 | Document Update |SDK Product Team ([PK](https://github.com/prabhjot729/))|
 
 
-[TOC]
 
 ## Getting Access
 
