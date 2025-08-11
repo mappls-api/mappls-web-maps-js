@@ -1,3 +1,11 @@
+## **Important Note** – Please read first
+
+> The [main](https://github.com/mappls-api/mappls-web-maps-js/tree/main) branch contains the documentation for releases using the updated Authorization & Authentication mechanism introduced in August 2025.  
+> If you wish to use the releases that use the legacy authentication method based on OAuth 2.0, please refer to the [auth-legacy](https://github.com/mappls-api/mappls-web-maps-js/tree/auth-legacy) branch.
+<br>
+
+
+
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
 
 # Mappls Web Maps JS
@@ -8,19 +16,21 @@ Our APIs, SDKs, and live updating map data available for [200+ countries & terri
 
 This page will be continually enhanced to offer more insights and reference materials on how to best utilize our Vector Maps JS SDK for Web.
 
-You can get your api key to be used for access here: [https://apis.mappls.com/console/](https://apis.mappls.com/console/)
+You can get your api key to be used for access here: [https://auth.mappls.com/console](https://auth.mappls.com/console)
 
 ## [Table Of Content]()
 - [Mappls Web Maps JS](#mappls-web-maps-js)
-  - [Documentation History](#documentation-history)
+  - [Table Of Content](#table-of-content)
   - [Introduction](#introduction)
   - [Web Map Features](#web-map-features)
+  - [Getting Access](#getting-access)
+  - [Authentication Object - `access_token` mandatory query parameter.](#authentication-object---access_token-mandatory-query-parameter)
   - [Getting Started](#getting-started)
   - [Understanding Map Methods, Events \& Properties](#understanding-map-methods-events--properties)
       - [Adding the Map Script to your web page](#adding-the-map-script-to-your-web-page)
+    - [Map Methods, Events \& Properties](#map-methods-events--properties)
   - [Markers](#markers)
     - [Types of Markers](#types-of-markers)
-    - [Map Methods, Events \& Properties](#map-methods-events--properties)
     - [Marker Implementation](#marker-implementation)
     - [Marker Methods,Events \& Properties](#marker-methodsevents--properties)
     - [Markers Quick Reference:](#markers-quick-reference)
@@ -42,15 +52,11 @@ You can get your api key to be used for access here: [https://apis.mappls.com/co
   - [Circles](#circles)
     - [Circle Quick Reference](#circle-quick-reference)
   - [Set mappls style](#set-mappls-style)
-  - [Map Snapshot](https://github.com/mappls-api/mappls-web-maps-js/blob/main/docs/V3.0/mappls_map_snapshot.md)
-  - [mGIS_Methods](https://github.com/mappls-api/mappls-web-maps-js/blob/main/docs/V3.0/mGIS_Methods.md)
-    
-  ## Documentation History
 
 | Version | Remarks | Author |
 |--|--|--|
-| 3.0 | Initial Commit  |Mappls API Team ([MS](https://github.com/mamtasharma117))|
-| 3.0 | Document Update |Mappls API Team ([PK](https://github.com/prabhjot729/))|
+| 1.0 | Initial Commit  |Mappls API Team ([PK](https://github.com/prabhjot729/))|
+
 
 
 ## Introduction
@@ -76,6 +82,18 @@ The Mappls Web Maps JavaScript SDK is a tool that enables the creation and custo
 
 **Please Note**: Mappls(MapmyIndia) may extend and enhance functionality for its interactive map API in future, which will be documented in this section, and which will be available through the Mappls.
 
+## Getting Access
+
+Before using the API in the your solution, please ensure that the related access is enabled in the [Mappls Console](https://auth.mappls.com/console/), within your app - be it for Mobile OR Web or Cloud integration.
+
+1. Copy and paste the key from your `credentials` section from your API [keys](https://auth.mappls.com/console/) into the `access_token` query parameter.
+    - Your static key can be secured by whitelisting its usage for particular IPs (in case of cloud app usage) OR a set of domains (in case of a web app)
+    - Your static key obtained from your Console is to be passed as a query parameter: `access_token`.
+
+## Authentication Object - `access_token` mandatory query parameter.
+
+-  `access_token`: "hklmgbwzrxncdyavtsuojqpiefrbhqplnm".
+
 ## Getting Started
 
 Now that you’re all caught up with the features let’s get down right to them implementing and look at how can you integrate our interactive Map to your Website from scratch.
@@ -94,10 +112,10 @@ Define `<!DOCTYPE html>` on top of your HTML.
 - Integrate Interactive maps from Mappls into your browser application by simply including Mappls's interactive map API in your script source in the head section.
 
     ```html
-        <script src="https://apis.mappls.com/advancedmaps/api/<token>/map_sdk?v=3.0&layer=vector"></script>
+      <script src="https://sdk.mappls.com/map/sdk/web?v=3.0&access_token=<Static Key>"></script>
     ```    
     **Important:**
-    - Please ensure that you insert your *bearer token* in place of `<token>`
+    - Please ensure that you insert your *static key* in place of `<Static Key>`
     - *`v`*: This is the version. Please keep as the latest version: `3.0`.
     - *`layer`*: The type of map applicable for the project. The default is `vector`. Alternate value is `raster`. 
     

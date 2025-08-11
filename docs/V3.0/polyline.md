@@ -15,7 +15,7 @@
 - **Path:** 
 
 This could be be the array of lat lng.
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 **Example Code Snippets:**
 

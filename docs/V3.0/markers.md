@@ -10,7 +10,7 @@ Markers are effortless way of pointing to a location, so getting right to it, yo
 -  **Custom Marker**: Just in case you want to provide your own markers, we’ve handled that for you as well.  
 -  **HTML Marker**: In case you don’t want to add in an image you can use HTML to create a marker and then plot it on the map as well.
 
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 [<img src="./../../assets/marker.png" height="650" width="1200"/> </p>](https://about.mappls.com)
 <p align="center">Marker</p>

@@ -3,7 +3,7 @@
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
 
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 [< Back to Table of Contents](../../README.md)
 
@@ -90,7 +90,7 @@ mappls_circle = new mappls.Circle({
 ### Remove Circle
 
 ```js
-	mappls.remove({map: map, layer: circle);
+mappls.remove({map: map, layer: circle);
 ```
 
 ### [Circle Events](#circle-events)

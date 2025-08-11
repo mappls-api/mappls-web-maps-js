@@ -6,7 +6,7 @@
 
 Mappls enables the visualization of panoramic 360-degree views from specific road locations through the use of on-the-spot panorama views. Our Web Map JavaScript makes it easy for you to integrate these panoramic views into your own map.
 
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 The feature is compatible with all mapstyles availble with mappls.com.
 To know more about available styles, kindly contact apisupport@mapmyindia.com

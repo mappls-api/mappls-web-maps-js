@@ -5,7 +5,7 @@
 
 ## Raster Source Overlay  
 To add 3rd Party Raster tile Sources on map.
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 ## **Adding and removing a Raster Source overlay**
 

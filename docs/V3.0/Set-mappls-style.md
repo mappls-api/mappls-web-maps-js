@@ -7,7 +7,7 @@ The listing api would help in rendering specific style as well as facilitate the
 
 From the below reference code it would become quite clear that user has to specify style names and not URLs to use them. 
 
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 A default style is set for all account users to start with. 
 To know more about available styles, kindly contact apisupport@mapmyindia.com

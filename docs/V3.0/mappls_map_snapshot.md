@@ -19,7 +19,7 @@ The mappls mapSnapshot  allows you to capture an image of the current map. The s
 #### Steps for Using mappls.mapSnapshot
 - **Load the Map SDK**: First, you need to load the Map SDK script in your HTML document. This is necessary for accessing the map and its associated methods.
 ```js 
-<script src="https://apis.mappls.com/advancedmaps/api/<TOKEN>/map_sdk?layer=vector&v=3.0&callback=initMap1&mapsnapshot" defer async></script>
+<script src="https://sdk.mappls.com/map/sdk/web?v=3.0&access_token=<Static Key>&layer=vector&callback=initMap1&mapsnapshot" defer async></script>
 ```
 - The callback parameter (initMap1 in this case) is the function that will be triggered once the map SDK is successfully loaded.
     - The layer parameter specifies the map layer. Here, it's set to a vector.
@@ -96,7 +96,7 @@ Example of Full Implementation:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map Snapshot Example</title>
-    <script src="https://apis.mappls.com/advancedmaps/api/<TOKEN>/map_sdk?layer=vector&v=3.0&callback=initMap1&mapsnapshot" defer async></script>
+    <script src="https://sdk.mappls.com/map/sdk/web?v=3.0&access_token=<Static Key>&layer=vector&callback=initMap1&mapsnapshot" defer async></script>
 </head>
 <body>
     <div id="map-container" style="height: 500px; width: 100%"></div>

@@ -1,7 +1,7 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
 [< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 ## Map Properties
 

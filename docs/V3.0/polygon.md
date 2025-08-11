@@ -3,13 +3,13 @@
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
 ## Polygon
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 
 
 ### Drawing Polygon
 ```js
-	new mappls.Polygon
+new mappls.Polygon
 ```
 
 [<img src="./../../assets/polygon.png" height="650" width="1200"/> </p>](https://about.mappls.com)

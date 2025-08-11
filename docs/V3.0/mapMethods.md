@@ -2,7 +2,7 @@
 [< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 Map Methods - 
 [Mappls Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/map-methods) 

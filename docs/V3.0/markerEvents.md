@@ -6,7 +6,7 @@
 
 ## Marker Events Quick References
 
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 ### Listening to Marker Events via addListener()
 

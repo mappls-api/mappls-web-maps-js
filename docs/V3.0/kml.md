@@ -8,7 +8,7 @@
 
 [Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/KML/mappls-kml) | [Code Pen Implementation](https://codepen.io/mappls/pen/VwyQGZy)
 
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 
 [<img src="./../../assets/kml.png" height="650" width="1200"/> </p>](https://about.mappls.com)

@@ -6,7 +6,7 @@
 
 The Mappls Map feature known as "3D landmarks" enhances the visibility of specific landmark structures by displaying them as overlays on the map. These structures are presented with textures and offer additional details in their three-dimensional (3D) geometry, as depicted in the provided screenshot. 
 
-For access, you can get your api key from [Mappls Console](https://apis.mappls.com/console/)
+For access, you can get your api key from [Mappls Console](https://auth.mappls.com/console)
 
 The feature is compatible with all map styles available with mappls.com.
 To know more about available styles, kindly contact apisupport@mapmyindia.com
