@@ -18,9 +18,8 @@ This page will be continually enhanced to offer more insights and reference mate
 
 You can get your api key to be used for access here: [https://auth.mappls.com/console](https://auth.mappls.com/console)
 
-## [Table Of Content]()
+## [Table Of Content](#table-of-content)
 - [Mappls Web Maps JS](#mappls-web-maps-js)
-  - [Table Of Content](#table-of-content)
   - [Introduction](#introduction)
   - [Web Map Features](#web-map-features)
   - [Getting Access](#getting-access)
