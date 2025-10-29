@@ -116,6 +116,24 @@ Map Events -
         map.addListener('pitchend', function () { console.log('pitchend');});
 ```
 
+- **zoomstart:** Fired when zooming starts.
+
+```js
+        map.addListener('zoomstart', function () { console.log('zoomstart');});
+```
+
+- **zoom:** Fired continuously during zoom interactions.
+
+```js
+        map.addListener('zoom', function () { console.log('zoom');});
+```
+
+- **zoomend:** Fired when a zoom interaction ends.
+
+```js
+        map.addListener('zoomend', function () { console.log('zoomend');});
+```
+
 **Event System**:
 
 1. `addListener:` Pass Event & Callback
