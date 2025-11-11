@@ -158,7 +158,7 @@ Map Events -
         map.addListener('rotatestart', function () { console.log('rotatestart');});
 ```
 
-- **rotate:** ired continuously while the map’s bearing (rotation) is changing during a drag or animation.
+- **rotate:** Fired continuously while the map’s bearing (rotation) is changing during a drag or animation.
 
 ```js
         map.addListener('rotate', function () { console.log('rotate');});
