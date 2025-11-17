@@ -6,7 +6,7 @@
 
 
 
-[<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+[<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://about.mappls.com/api)
 
 # Mappls Web Maps JS
 
@@ -99,7 +99,7 @@ Now that you’re all caught up with the features let’s get down right to them
 
 ## Understanding Map Methods, Events & Properties
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/Maps/mappls-default-map) | [CodePen Implementation](https://codepen.io/mappls/pen/BaJYqLz)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Maps/mappls-default-map) | [CodePen Implementation](https://codepen.io/mappls/pen/BaJYqLz)
 
 The easiest way to start loading maps in a web page is with a “Hello World” sample code, you can download or view a working “Hello World” sample from the links for adding your first marker below.
 
@@ -160,7 +160,7 @@ For more details, please read article in [Markers](./docs/V3.0/markers.md)
 
 ### Marker Implementation
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-singlemarker) | [Code Pen Implementation](https://codepen.io/mappls/pen/XWVZBXL)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-singlemarker) | [Code Pen Implementation](https://codepen.io/mappls/pen/XWVZBXL)
 
 The easiest way to start loading maps with simple markers in a web page is with sample code given on the link above, you can download or view a working sample with your authorized access keys. 
 
@@ -194,45 +194,45 @@ You can fine-tune the map methods, events and properties we offer to align with 
 
 ### View Sample Codes for Quick Reference
 
-- [Single Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-singlemarker)
+- [Single Marker](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-singlemarker)
   
-- [Multiple Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-multiplemarker)
+- [Multiple Marker](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-multiplemarker)
   
-- [Advance Cluster Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-advancecluster)
+- [Advance Cluster Marker](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-advancecluster)
   
-- [Bouncing Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-bouncing-marker)
+- [Bouncing Marker](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-bouncing-marker)
   
-- [Cluster Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-cluster)
+- [Cluster Marker](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-cluster)
   
-- [Dragable Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-draggablemarker)
+- [Dragable Marker](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-draggablemarker)
   
-- [Marker Dropdown](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-dropdown-marker)
+- [Marker Dropdown](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-dropdown-marker)
   
-- [Marker Dropup](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-dropup-marker)
+- [Marker Dropup](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-dropup-marker)
   
-- [Marker using HTML](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-htmlmarker)
+- [Marker using HTML](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-htmlmarker)
   
-- [Linked Marker](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-linked-marker)
+- [Linked Marker](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-linked-marker)
   
-- [Marker with Custom Popup](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-marker-custompopup)
+- [Marker with Custom Popup](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-marker-custompopup)
   
-- [Marker with Popup](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-markerpopup)
+- [Marker with Popup](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-markerpopup)
   
-- [Multiple Marker using GeoJSON](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-multiplemarker-geojson)
+- [Multiple Marker using GeoJSON](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-multiplemarker-geojson)
 
 ## Heat Map Overlays
 
 For details , please read article in [Heatmap Overlays](./docs/V3.0/heatMap.md)
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/HeatmapOverlays/mappls-heatmap) | [Code Pen Implementation](https://codepen.io/mappls/pen/MWrQqaK)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/HeatmapOverlays/mappls-heatmap) | [Code Pen Implementation](https://codepen.io/mappls/pen/MWrQqaK)
 
 ### HeatMap Quick Reference 
 
-- [Heatmap on Click](https://about.mappls.com/api/web-sdk/vector-map-example/HeatmapOverlays/mappls-heatmap-onclick)
+- [Heatmap on Click](https://about.mappls.com/api/web-sdk/vector-map-auth2/HeatmapOverlays/mappls-heatmap-onclick)
   
-- [Heatmap on Overmouse](https://about.mappls.com/api/web-sdk/vector-map-example/HeatmapOverlays/mappls-heatmap-overmouse)
+- [Heatmap on Overmouse](https://about.mappls.com/api/web-sdk/vector-map-auth2/HeatmapOverlays/mappls-heatmap-overmouse)
   
-- [HeatMap](https://about.mappls.com/api/web-sdk/vector-map-example/HeatmapOverlays/mappls-heatmap)
+- [HeatMap](https://about.mappls.com/api/web-sdk/vector-map-auth2/HeatmapOverlays/mappls-heatmap)
 
 - [Heatmap Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/heatMap.md#heatmap-properties)
 
@@ -240,7 +240,7 @@ For details , please read article in [Heatmap Overlays](./docs/V3.0/heatMap.md)
 
 For details, please read article in [GeoJSON ](./docs/V3.0/geoJson.md)
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/GeoJSON/mappls-geojson) | [Code Pen Implementation](https://codepen.io/mappls/pen/GRyQXpY)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/GeoJSON/mappls-geojson) | [Code Pen Implementation](https://codepen.io/mappls/pen/GRyQXpY)
 
 *GeoJSON Supports marker, polyline and polygon addition and Style properties*
 
@@ -272,13 +272,13 @@ For details, please read article in [GeoJSON ](./docs/V3.0/geoJson.md)
 
 ### Geojson Quick Reference 
 
-- [Add GeoJSON](https://about.mappls.com/api/web-sdk/vector-map-example/GeoJSON/mappls-geojson)
+- [Add GeoJSON](https://about.mappls.com/api/web-sdk/vector-map-auth2/GeoJSON/mappls-geojson)
   
-- [Dashed Polyline Using GeoJson](https://about.mappls.com/api/web-sdk/vector-map-example/GeoJSON/mappls-geojson-dashed-polyline)
+- [Dashed Polyline Using GeoJson](https://about.mappls.com/api/web-sdk/vector-map-auth2/GeoJSON/mappls-geojson-dashed-polyline)
   
-- [Multi Colored Dashed Polyline Using GeoJson](https://about.mappls.com/api/web-sdk/vector-map-example/GeoJSON/mappls-geojson-multicolored-dashed-polyline)
+- [Multi Colored Dashed Polyline Using GeoJson](https://about.mappls.com/api/web-sdk/vector-map-auth2/GeoJSON/mappls-geojson-multicolored-dashed-polyline)
   
-- [Multiple Marker Using Geojson](https://about.mappls.com/api/web-sdk/vector-map-example/Markers/mappls-multiplemarker-geojson)
+- [Multiple Marker Using Geojson](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-multiplemarker-geojson)
 
 - [Add GeoJSON Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/geoJson.md#Add-GeoJSON-Properties)
 
@@ -293,7 +293,7 @@ For details, please read article in [GeoJSON ](./docs/V3.0/geoJson.md)
 
 **KML**: [Keyhole Markup Language](https://www.opengeospatial.org/standards/kml) is a file format employed to showcase geographical data on maps. With this plugin, you have the capability to superimpose KML data onto Mappls Maps for web applications.
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/KML/mappls-kml) | [Code Pen Implementation](https://codepen.io/mappls/pen/VwyQGZy)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/KML/mappls-kml) | [Code Pen Implementation](https://codepen.io/mappls/pen/VwyQGZy)
 
 #### Important Notes to remember
 1. Only KML data supported.
@@ -320,7 +320,7 @@ For details, please read article in [KML Overlay](./docs/V3.0/kml.md)
 
 ## Info Windows
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/InfoWindow/mappls-infowindow) | [Code Pen Implementation](https://codepen.io/mappls/pen/KKZQxwK)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/InfoWindow/mappls-infowindow) | [Code Pen Implementation](https://codepen.io/mappls/pen/KKZQxwK)
 
 Info Windows provide a user-friendly method for displaying information related to a marker, essentially explaining the purpose of that marker. When users encounter a marker, their natural instinct is to click on it to discover more details, and presenting an info window is the ideal approach to fulfill this expectation.
 
@@ -332,11 +332,11 @@ For more details , please read article in [Info Windows](./docs/V3.0/infoWindows
 
 ### Types of Information windows
 
-- [Simple InfoWindow](https://about.mappls.com/api/web-sdk/vector-map-example/InfoWindow/mappls-infowindow)
+- [Simple InfoWindow](https://about.mappls.com/api/web-sdk/vector-map-auth2/InfoWindow/mappls-infowindow)
   
-- [Custom InfoWindow](https://about.mappls.com/api/web-sdk/vector-map-example/InfoWindow/mappls-custom-infowindow)
+- [Custom InfoWindow](https://about.mappls.com/api/web-sdk/vector-map-auth2/InfoWindow/mappls-custom-infowindow)
   
-- [InfoWindow with Header](https://about.mappls.com/api/web-sdk/vector-map-example/InfoWindow/mappls-infowindow-with-header)
+- [InfoWindow with Header](https://about.mappls.com/api/web-sdk/vector-map-auth2/InfoWindow/mappls-infowindow-with-header)
 
 
 ### Info Window Quick Reference
@@ -350,7 +350,7 @@ For more details , please read article in [Info Windows](./docs/V3.0/infoWindows
 
 ## Polylines
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-polyline) | [Code Pen Implementation](https://codepen.io/mappls/pen/BaJYPOO)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-polyline) | [Code Pen Implementation](https://codepen.io/mappls/pen/BaJYPOO)
 
 Polylines are a means of visualizing movement or routes on a map, and at Mappls, we recognize the various ways you can make use of a map's capabilities, with Polylines being one of them.
 
@@ -360,17 +360,17 @@ For details , please read article in [Polylines](./docs/V3.0/polyline.md)
 
 ### Polyline Quick Reference - Check out our vast list of sample codes for different polylines styles.
 
-- ##### [Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-polyline)
+- ##### [Polyline](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-polyline)
 
-- ##### [Animated Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-animated-polyline)
-- ##### [Animated Marker with Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-animatedmarker-Polyline)
-- ##### [Bezier Curve Dashed Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-curve-dashed-polyline)
-- ##### [Bezier Curve Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-curve-polyline)
-- ##### [Dashed Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-dashed-polyline)
-- ##### [Editable Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-editable-polyline)
-- ##### [Gradient Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-gradient-polyline)
-- ##### [Multi Colored Dashed Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-multicolored-dashed-polyline)
-- ##### [Multi Colored Polyline](https://about.mappls.com/api/web-sdk/vector-map-example/Polyline/mappls-multicolored-polyline)
+- ##### [Animated Polyline](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-animated-polyline)
+- ##### [Animated Marker with Polyline](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-animatedmarker-Polyline)
+- ##### [Bezier Curve Dashed Polyline](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-curve-dashed-polyline)
+- ##### [Bezier Curve Polyline](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-curve-polyline)
+- ##### [Dashed Polyline](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-dashed-polyline)
+- ##### [Editable Polyline](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-editable-polyline)
+- ##### [Gradient Polyline](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-gradient-polyline)
+- ##### [Multi Colored Dashed Polyline](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-multicolored-dashed-polyline)
+- ##### [Multi Colored Polyline](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-multicolored-polyline)
 
 
 **Remove Polyline Method in JS**
@@ -393,23 +393,23 @@ For details , please read article in [Polygon](./docs/V3.0/polygon.md)
 
 ### Polygon Quick Reference - Check out our vast list of sample codes for polygons.
 
-  - ##### [Simple Polygon](https://about.mappls.com/api/web-sdk/vector-map-example/Polygon/mappls-polygon)
+  - ##### [Simple Polygon](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polygon/mappls-polygon)
 
  - ##### [Polygon Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/polygon.md#polygon-properties)
 
  - ##### [Polygon Events](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/polygon.md#polygon-events)
 
-  - ##### [Editable Polygon](https://about.mappls.com/api/web-sdk/vector-map-example/Polygon/mappls-editable-polygon)
+  - ##### [Editable Polygon](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polygon/mappls-editable-polygon)
 
-  - ##### [Polygon with Popup](https://about.mappls.com/api/web-sdk/vector-map-example/Polygon/mappls-polygon-withpopup)
+  - ##### [Polygon with Popup](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polygon/mappls-polygon-withpopup)
 
- - ##### [Transparent Polygon](https://about.mappls.com/api/web-sdk/vector-map-example/Polygon/mappls-transparent-polygon)
- - ##### [Check Position In Polygon](https://about.mappls.com/api/web-sdk/vector-map-example/Polygon/mappls-check-position-polygon)
+ - ##### [Transparent Polygon](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polygon/mappls-transparent-polygon)
+ - ##### [Check Position In Polygon](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polygon/mappls-check-position-polygon)
 
 
 ## Circles
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/RwxQBzy)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/RwxQBzy)
 
 Circles are a method for designating an area on a map with minimal user interaction. A circle is characterized by just two key attributes:
 
@@ -428,9 +428,9 @@ For more details , please read article in [Circle](./docs/V3.0/circle.md)
 ### Circle Quick Reference 
 
 
-  - ##### [Simple Circle](https://about.mappls.com/api/web-sdk/vector-map-example/Circle/mappls-transparent-circle)
+  - ##### [Simple Circle](https://about.mappls.com/api/web-sdk/vector-map-auth2/Circle/mappls-transparent-circle)
 
-  - ##### [Transparent Circle](https://about.mappls.com/api/web-sdk/vector-map-example/Circle/mappls-transparent-circle)
+  - ##### [Transparent Circle](https://about.mappls.com/api/web-sdk/vector-map-auth2/Circle/mappls-transparent-circle)
 
   - ##### [Circle Properties](https://github.com/mappls-api/mappls-web-maps-js/blob/master/docs/V3.0/circle.md#circle-properties)
 
@@ -449,18 +449,18 @@ For any queries and support, please contact:
 Email us at [apisupport@mappls.com](mailto:apisupport@mappls.com)
 
 
-![](https://www.mapmyindia.com/api/img/icons/support.png)
+![](https://about.mappls.com/api/img/icons/support.png)
 [Support](https://about.mappls.com/contact/)
 Need support? contact us!
 
 <br></br>
 <br></br>
 
-[<p align="center"> <img src="https://www.mapmyindia.com/api/img/icons/stack-overflow.png"/> ](https://stackoverflow.com/questions/tagged/mappls-api)[![](https://www.mapmyindia.com/api/img/icons/blog.png)](https://about.mappls.com/blog/)[![](https://www.mapmyindia.com/api/img/icons/gethub.png)](https://github.com/Mappls-api)[<img src="https://mmi-api-team.s3.ap-south-1.amazonaws.com/API-Team/npm-logo.one-third%5B1%5D.png" height="40"/> </p>](https://www.npmjs.com/org/mapmyindia) 
+[<p align="center"> <img src="https://about.mappls.com/api/img/icons/stack-overflow.png"/> ](https://stackoverflow.com/questions/tagged/mappls-api)[![](https://about.mappls.com/api/img/icons/blog.png)](https://about.mappls.com/blog/)[![](https://about.mappls.com/api/img/icons/gethub.png)](https://github.com/Mappls-api)[<img src="https://mmi-api-team.s3.ap-south-1.amazonaws.com/API-Team/npm-logo.one-third%5B1%5D.png" height="40"/> </p>](https://www.npmjs.com/org/mapmyindia) 
 
 
 
-[<p align="center"> <img src="https://www.mapmyindia.com/june-newsletter/icon4.png"/> ](https://www.facebook.com/Mapplsofficial)[![](https://www.mapmyindia.com/june-newsletter/icon2.png)](https://twitter.com/mappls)[![](https://www.mapmyindia.com/newsletter/2017/aug/llinkedin.png)](https://www.linkedin.com/company/mappls/)[![](https://www.mapmyindia.com/june-newsletter/icon3.png)](https://www.youtube.com/channel/UCAWvWsh-dZLLeUU7_J9HiOA)
+[<p align="center"> <img src="https://about.mappls.com/june-newsletter/icon4.png"/> ](https://www.facebook.com/Mapplsofficial)[![](https://about.mappls.com/june-newsletter/icon2.png)](https://twitter.com/mappls)[![](https://about.mappls.com/newsletter/2017/aug/llinkedin.png)](https://www.linkedin.com/company/mappls/)[![](https://about.mappls.com/june-newsletter/icon3.png)](https://www.youtube.com/channel/UCAWvWsh-dZLLeUU7_J9HiOA)
 
 
 
