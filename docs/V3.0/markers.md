@@ -1,4 +1,4 @@
-[<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
+[<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://about.mappls.com/api)
 [< Back to Table of Contents](../../README.md)
 # MapmyIndia Interactive Vector Maps JS SDK for Web !
 
@@ -48,7 +48,7 @@ var marker = new mappls.Marker({
 
 [**Multiple Marker With cluster**](#Multiple-Marker-With-cluster)
 
-[Mappls Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/multiple-marker) 
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-multiplemarker) 
 
 Code snippet for adding multiple marker with cluster
 
@@ -72,12 +72,12 @@ Code snippet for adding multiple marker with cluster
                 "coordinates": [28.549511,77.2678250]}
                 }]
             };
-    var marker=Mappls.Marker({map:map,position:geoData,icon_url:'https://apis.mapmyindia.com/map_v3/1.png',clusters:true,fitbounds:true,fitboundOptions:{padding: 120,duration:1000},popupOptions:{offset: {'bottom': [0, -20]}}});
+    var marker=Mappls.Marker({map:map,position:geoData,icon_url:'https://apis.mappls.com/map_v3/1.png',clusters:true,fitbounds:true,fitboundOptions:{padding: 120,duration:1000},popupOptions:{offset: {'bottom': [0, -20]}}});
 ```
 
 ### GeoJSON bulk Markers
 
-[Mappls Live Demo](https://www.mapmyindia.com/api/advanced-maps/WebSDK-LiveDemo/addgeojson)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-multiplemarker-geojson)
 
 Code snippet for adding geojson bulk markers
 ```js
@@ -88,7 +88,7 @@ Code snippet for adding geojson bulk markers
 				"properties":
 					{
 						"description":"noida",
-						"icon":"https://apis.mapmyindia.com/map_v3/1.png",
+						"icon":"https://apis.mappls.com/map_v3/1.png",
 						"icon-size":.75,
 						"icon-offset":[0,-10],
 						"text":"1",
@@ -99,12 +99,12 @@ Code snippet for adding geojson bulk markers
 				"coordinates": [28.544,77.5454]}
 				},{
 				"type": "Feature",
-				"properties": {"description":"faridabad","icon":"https://apis.mapmyindia.com/map_v3/1.png"},
+				"properties": {"description":"faridabad","icon":"https://apis.mappls.com/map_v3/1.png"},
 				"geometry": {"type": "Point",
 				"coordinates": [28.27189158,77.2158203125]}
 				},{
 				"type": "Feature",
-				"properties": {"description":"delhi","icon":"https://apis.mapmyindia.com/map_v3/1.png"},
+				"properties": {"description":"delhi","icon":"https://apis.mappls.com/map_v3/1.png"},
 				"geometry": {"type": "Point",
 				"coordinates": [28.549511,77.2678250]}
 				}]
@@ -130,18 +130,18 @@ For any queries and support, please contact:
 Email us at [apisupport@mappls.com](mailto:apisupport@mappls.com)
 
 
-![](https://www.mapmyindia.com/api/img/icons/support.png)
+![](https://about.mappls.com/api/img/icons/support.png)
 [Support](https://about.mappls.com/contact/)
 Need support? contact us!
 
 <br></br>
 <br></br>
 
-[<p align="center"> <img src="https://www.mapmyindia.com/api/img/icons/stack-overflow.png"/> ](https://stackoverflow.com/questions/tagged/mappls-api)[![](https://www.mapmyindia.com/api/img/icons/blog.png)](https://about.mappls.com/blog/)[![](https://www.mapmyindia.com/api/img/icons/gethub.png)](https://github.com/Mappls-api)[<img src="https://mmi-api-team.s3.ap-south-1.amazonaws.com/API-Team/npm-logo.one-third%5B1%5D.png" height="40"/> </p>](https://www.npmjs.com/org/mapmyindia) 
+[<p align="center"> <img src="https://about.mappls.com/api/img/icons/stack-overflow.png"/> ](https://stackoverflow.com/questions/tagged/mappls-api)[![](https://about.mappls.com/api/img/icons/blog.png)](https://about.mappls.com/blog/)[![](https://about.mappls.com/api/img/icons/gethub.png)](https://github.com/Mappls-api)[<img src="https://mmi-api-team.s3.ap-south-1.amazonaws.com/API-Team/npm-logo.one-third%5B1%5D.png" height="40"/> </p>](https://www.npmjs.com/org/mapmyindia) 
 
 
 
-[<p align="center"> <img src="https://www.mapmyindia.com/june-newsletter/icon4.png"/> ](https://www.facebook.com/Mapplsofficial)[![](https://www.mapmyindia.com/june-newsletter/icon2.png)](https://twitter.com/mappls)[![](https://www.mapmyindia.com/newsletter/2017/aug/llinkedin.png)](https://www.linkedin.com/company/mappls/)[![](https://www.mapmyindia.com/june-newsletter/icon3.png)](https://www.youtube.com/channel/UCAWvWsh-dZLLeUU7_J9HiOA)
+[<p align="center"> <img src="https://about.mappls.com/june-newsletter/icon4.png"/> ](https://www.facebook.com/Mapplsofficial)[![](https://about.mappls.com/june-newsletter/icon2.png)](https://twitter.com/mappls)[![](https://about.mappls.com/newsletter/2017/aug/llinkedin.png)](https://www.linkedin.com/company/mappls/)[![](https://about.mappls.com/june-newsletter/icon3.png)](https://www.youtube.com/channel/UCAWvWsh-dZLLeUU7_J9HiOA)
 
 
 
