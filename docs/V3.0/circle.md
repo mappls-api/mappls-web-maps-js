@@ -8,7 +8,7 @@ For access, you can get your api key from [Mappls Console](https://auth.mappls.c
 [< Back to Table of Contents](../../README.md)
 
 ## Circle
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/RwxQBzy)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/VYvBmmo)
 
 [<img src="./../../assets/circle.png" height="650" width="1200"/> </p>](https://about.mappls.com)
 <p align="center">Circle</p>
@@ -69,7 +69,7 @@ For access, you can get your api key from [Mappls Console](https://auth.mappls.c
 ```
 
 #### Circle Method
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/RwxQBzy)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/VYvBmmo)
 
 
 **`Mappls.Circle()`**
