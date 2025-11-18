@@ -160,7 +160,7 @@ For more details, please read article in [Markers](./docs/V3.0/markers.md)
 
 ### Marker Implementation
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-singlemarker) | [Code Pen Implementation](https://codepen.io/mappls/pen/XWVZBXL)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Markers/mappls-singlemarker) | [Code Pen Implementation](https://codepen.io/mappls/pen/NPGzEOJ)
 
 The easiest way to start loading maps with simple markers in a web page is with sample code given on the link above, you can download or view a working sample with your authorized access keys. 
 
@@ -224,7 +224,7 @@ You can fine-tune the map methods, events and properties we offer to align with 
 
 For details , please read article in [Heatmap Overlays](./docs/V3.0/heatMap.md)
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/HeatmapOverlays/mappls-heatmap) | [Code Pen Implementation](https://codepen.io/mappls/pen/MWrQqaK)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/HeatmapOverlays/mappls-heatmap) | [Code Pen Implementation](https://codepen.io/mappls/pen/LEpBxrx)
 
 ### HeatMap Quick Reference 
 
@@ -240,7 +240,7 @@ For details , please read article in [Heatmap Overlays](./docs/V3.0/heatMap.md)
 
 For details, please read article in [GeoJSON ](./docs/V3.0/geoJson.md)
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/GeoJSON/mappls-geojson) | [Code Pen Implementation](https://codepen.io/mappls/pen/GRyQXpY)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/GeoJSON/mappls-geojson) | [Code Pen Implementation](https://codepen.io/mappls/pen/EaVpNKe)
 
 *GeoJSON Supports marker, polyline and polygon addition and Style properties*
 
@@ -293,7 +293,7 @@ For details, please read article in [GeoJSON ](./docs/V3.0/geoJson.md)
 
 **KML**: [Keyhole Markup Language](https://www.opengeospatial.org/standards/kml) is a file format employed to showcase geographical data on maps. With this plugin, you have the capability to superimpose KML data onto Mappls Maps for web applications.
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/KML/mappls-kml) | [Code Pen Implementation](https://codepen.io/mappls/pen/VwyQGZy)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/KML/mappls-kml) | [Code Pen Implementation](https://codepen.io/mappls/pen/vENagje)
 
 #### Important Notes to remember
 1. Only KML data supported.
@@ -320,7 +320,7 @@ For details, please read article in [KML Overlay](./docs/V3.0/kml.md)
 
 ## Info Windows
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/InfoWindow/mappls-infowindow) | [Code Pen Implementation](https://codepen.io/mappls/pen/KKZQxwK)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/InfoWindow/mappls-infowindow) | [Code Pen Implementation](https://codepen.io/mappls/pen/jEbpVVw)
 
 Info Windows provide a user-friendly method for displaying information related to a marker, essentially explaining the purpose of that marker. When users encounter a marker, their natural instinct is to click on it to discover more details, and presenting an info window is the ideal approach to fulfill this expectation.
 
@@ -350,7 +350,7 @@ For more details , please read article in [Info Windows](./docs/V3.0/infoWindows
 
 ## Polylines
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-polyline) | [Code Pen Implementation](https://codepen.io/mappls/pen/BaJYPOO)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Polyline/mappls-polyline) | [Code Pen Implementation](https://codepen.io/mappls/pen/xbwzMKy)
 
 Polylines are a means of visualizing movement or routes on a map, and at Mappls, we recognize the various ways you can make use of a map's capabilities, with Polylines being one of them.
 
@@ -409,7 +409,7 @@ For details , please read article in [Polygon](./docs/V3.0/polygon.md)
 
 ## Circles
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/RwxQBzy)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Circle/mappls-circle) | [Code Pen Implementation](https://codepen.io/mappls/pen/VYvBmmo)
 
 Circles are a method for designating an area on a map with minimal user interaction. A circle is characterized by just two key attributes:
 
