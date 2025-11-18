@@ -99,7 +99,7 @@ Now that you’re all caught up with the features let’s get down right to them
 
 ## Understanding Map Methods, Events & Properties
 
-[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Maps/mappls-default-map) | [CodePen Implementation](https://codepen.io/mappls/pen/BaJYqLz)
+[Mappls Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Maps/mappls-default-map) | [CodePen Implementation](https://codepen.io/mappls/pen/xbwYobr)
 
 The easiest way to start loading maps in a web page is with a “Hello World” sample code, you can download or view a working “Hello World” sample from the links for adding your first marker below.
 
