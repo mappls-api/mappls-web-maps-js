@@ -22,7 +22,7 @@ To get the list of available styles follow the below mentioned implementation
 
 mappls.getStyles();
 
-Click here for [Live Demo](https://about.mappls.com/api/web-sdk/vector-map-example/Maps/mappls-map-style)
+Click here for [Live Demo](https://about.mappls.com/api/web-sdk/vector-map-auth2/Maps/mappls-map-style)
 
 Mappls Map Styles contains below parameters:
 
