@@ -12,11 +12,12 @@ For access, you can get your api key from [Mappls Console](https://auth.mappls.c
 Method Name :  **`addTile({tiles:tileUrl})`**
 
 ```js
-var myTile=mappls.addTiles({
-	map:map,
+var myTile=map.addTile({
+    type: 'raster',
 	tiles:[
 		'https://apis.mappls.com/advancedmaps/v1/<key>/bhuvan_imagery/{z}/{x}/{y}.png'
-		]
+		],
+      tileSize: 256/512,
 });
 ```
 
